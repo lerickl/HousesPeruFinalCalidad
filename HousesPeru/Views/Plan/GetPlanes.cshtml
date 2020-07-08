@@ -1,0 +1,131 @@
+﻿
+@{
+    ViewBag.Title = "Planes";
+    if (ViewBag.UserLogged == "ADMINISTRADOR")
+    {
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }
+    if (ViewBag.UserLogged == "AGENTE")
+    {
+        Layout = "~/Views/Shared/_LayoutAgente.cshtml";
+    }
+    if (ViewBag.UserLogged == "USUARIO")
+    {
+        Layout = "~/Views/Shared/_LayoutUsuario.cshtml";
+    }
+    if (ViewBag.UserLogged == null)
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+}
+
+ <h1 id="ViewPlanes"></h1>
+<div class="text-center er_contPlan">
+    <div class="er_sombra_plans_new">
+        <div class="er_sombra_plan">
+            <div class="container" >
+                <section class="section">
+                    <div class="row" >
+                        <div class=" col-md-12">
+                            <hr />
+                            <h4 style="font-weight:bold">ELIGE UN PLAN</h4>
+                            @if (ViewBag.PlanActual != null)
+                            {
+                                <h3>Su Plan Actual: @ViewBag.PlanActual.Nombre</h3>
+                            }
+                            @if (ViewBag.User != null)
+                            {
+                                <h3> Finaliza el: @ViewBag.User.FechaFinPlan </h3>
+                            }
+
+                            <hr />
+                        </div>
+                    </div>
+                    <div class="row" style="opacity:0.9; ">
+
+                        <div class=" container" >
+                            <div class="card-group " style="opacity:0.9; ">
+
+                                <div class="card" style="opacity:0.9;">
+                                    <div class="card-body er_card_normal" style="border-radius:20px;">
+                                        <div class="er_sombra_card">
+                                            <hr />
+                                            <h4 class="card-title text-md-center"  style="color:white;background-color:#00d3ff;border-radius:20px;"><i class="far fa-star-half"></i> NORMAL</h4>
+
+                                            <h5 class="text-md-center"><i class="far fa-money-bill-alt"></i> FREE</h5>
+                                            <hr />
+                                            <p class="text-md-center">Un Mes De Membresia</p>
+                                            <p class="text-md-center">Publicacion Normal</p>
+                                            <h8>.</h8>
+                                            <div class="text-center">
+                                                <a class="btn   btn-block  " style="background-color:#19c2e6">Elegir</a>
+                                            </div>
+                                            <hr />
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                                <div class="card" style="opacity:0.9">
+                                    <div class="card-body er_card_premium" style="border-radius:20px;">
+                                        <div class="er_sombra_card">
+                                            <hr />
+                                            <h4 class="card-title text-md-center" style="color:white;background-color:#83b5d9;border-radius:20px;"><i class="fas fa-star"></i> PREMIUM</h4>
+                                             
+                                            <hr />
+                                            <p class="text-md-center">Seis Meses De Membresia</p>
+                                            <p class="text-md-center">Publicacion Normal, Publicacion Destacados y Gold </p>
+
+                                            <div class="text-center">
+                                                <a class="btn   btn-block  " style="background-color:#19c2e6">Elegir</a>
+                                            </div>
+                                            <hr />
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                                <div class="card" style="opacity:0.9">
+                                    <div class="card-body er_card_gold" style="border-radius:20px;">
+                                        <div class="er_sombra_card">
+                                            <hr />
+                                            <h4 class="card-title text-md-center" style="color:white;background-color:#ffd000;border-radius:20px;"><i class="fab fa-phoenix-framework"></i> GOLD</h4>
+                                            
+                                            <hr />
+                                            <p class="text-md-center">Un Año De Membresia</p>
+                                            <p class="text-md-center">Publicacion Normal, Publicacion Destacados y Gold</p>
+
+                                            <div class="text-center">
+                                                <a class="btn  btn-block  " style="background-color:#19c2e6">Elegir</a>
+                                            </div>
+                                            <hr />
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                </section>
+                
+              
+            </div>
+        </div>
+       
+    </div>
+
+
+
+</div>
+
+<div class="text-center"></div>
+
+

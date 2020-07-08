@@ -1,0 +1,1130 @@
+{
+  "version": "0.1",
+  "toolInfo": {
+    "toolName": "Compilador de Microsoft (R) Visual C#",
+    "productVersion": "1.0.0",
+    "fileVersion": "1.0.0"
+  },
+  "issues": [
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 204,
+                "startColumn": 32,
+                "endLine": 204,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 221,
+                "startColumn": 32,
+                "endLine": 221,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 241,
+                "startColumn": 32,
+                "endLine": 241,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 260,
+                "startColumn": 32,
+                "endLine": 260,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 279,
+                "startColumn": 32,
+                "endLine": 279,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 298,
+                "startColumn": 32,
+                "endLine": 298,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 317,
+                "startColumn": 32,
+                "endLine": 317,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 336,
+                "startColumn": 32,
+                "endLine": 336,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 355,
+                "startColumn": 32,
+                "endLine": 355,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 375,
+                "startColumn": 32,
+                "endLine": 375,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 396,
+                "startColumn": 32,
+                "endLine": 396,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 416,
+                "startColumn": 32,
+                "endLine": 416,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 436,
+                "startColumn": 32,
+                "endLine": 436,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 456,
+                "startColumn": 32,
+                "endLine": 456,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 483,
+                "startColumn": 32,
+                "endLine": 483,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 500,
+                "startColumn": 32,
+                "endLine": 500,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 520,
+                "startColumn": 32,
+                "endLine": 520,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 540,
+                "startColumn": 32,
+                "endLine": 540,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 560,
+                "startColumn": 32,
+                "endLine": 560,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 580,
+                "startColumn": 32,
+                "endLine": 580,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 599,
+                "startColumn": 32,
+                "endLine": 599,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 619,
+                "startColumn": 32,
+                "endLine": 619,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 639,
+                "startColumn": 32,
+                "endLine": 639,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 660,
+                "startColumn": 32,
+                "endLine": 660,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 680,
+                "startColumn": 32,
+                "endLine": 680,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 700,
+                "startColumn": 32,
+                "endLine": 700,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 720,
+                "startColumn": 32,
+                "endLine": 720,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 747,
+                "startColumn": 32,
+                "endLine": 747,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 764,
+                "startColumn": 32,
+                "endLine": 764,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 784,
+                "startColumn": 32,
+                "endLine": 784,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 804,
+                "startColumn": 32,
+                "endLine": 804,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 824,
+                "startColumn": 32,
+                "endLine": 824,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 844,
+                "startColumn": 32,
+                "endLine": 844,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 863,
+                "startColumn": 32,
+                "endLine": 863,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 885,
+                "startColumn": 32,
+                "endLine": 885,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 906,
+                "startColumn": 32,
+                "endLine": 906,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 927,
+                "startColumn": 32,
+                "endLine": 927,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 947,
+                "startColumn": 32,
+                "endLine": 947,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 967,
+                "startColumn": 32,
+                "endLine": 967,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0618",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.cs",
+              "region": {
+                "startLine": 987,
+                "startColumn": 32,
+                "endLine": 987,
+                "endColumn": 50
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "'ExpectedConditions' está obsoleto: 'The ExpectedConditions implementation in the .NET bindings is deprecated and will be removed in a future release. This portion of the code has been migrated to the DotNetSeleniumExtras repository on GitHub (https://github.com/DotNetSeleniumTools/DotNetSeleniumExtras)'",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "2",
+        "defaultSeverity": "Warning",
+        "title": "El tipo o el miembro están obsoletos",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    }
+  ]
+}

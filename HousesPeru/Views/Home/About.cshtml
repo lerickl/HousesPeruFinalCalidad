@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "About";
+    if (ViewBag.UserLogged == "ADMINISTRADOR") {
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }if (ViewBag.UserLogged == "AGENTE") {
+        Layout = "~/Views/Shared/_LayoutAgente.cshtml";
+    }if (ViewBag.UserLogged == "USUARIO"){
+        Layout = "~/Views/Shared/_LayoutUsuario.cshtml";
+    }if(ViewBag.UserLogged == null){ 
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+}
+  
+
+<div class="er_cont_bannerAbout">
+    <h1 id="ViewAbout"></h1>
+    <main>
+
+        <div class="container-fluid mb-5" >
+
+            <!--Grid row-->
+            <div class="row" style="  opacity:0.9">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+             
+                    <div class="card pb-5">
+                        <div class="card-body">
+
+                            <div class="container">
+
+                                <!--Section: Contact v.2-->
+                                <section class="section">
+
+                                    <!--Section heading-->
+                                    <h2 class="font-weight-bold text-center h1 my-5">Acerca de Nosotros</h2>
+                                    <!--Section description-->
+                                    <p class="text-center grey-text mb-5 mx-auto w-responsive">
+                                        Somos una agencia inmobiliaria, ofrecemos servicios de compra – venta de inmuebles, alquileres, tasaciones y consultoría.
+                                        Nuestra misión es buscar soluciones inmobiliarias para que personas, empresas, instituciones e inversionistas desarrollen su actividad en las mejores condiciones.
+                                        Sabemos que el servicio a los clientes es la clave de nuestro negocio. Por ello mantenemos una gama flexible de productos y servicios, fácilmente adaptables a cada necesidad en todas las áreas del sector inmobiliario.
+                                    </p>
+
+
+                                </section>
+                                <!--Section: Contact v.2-->
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </div>
+
+        </div>
+
+    </main>
+    
+</div>
+<style>
+    .map-container-section {
+        overflow: hidden;
+        /* padding-bottom:56.25%; */
+        position: relative;
+        height: 0;
+    }
+
+        .map-container-section iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+</style>
+

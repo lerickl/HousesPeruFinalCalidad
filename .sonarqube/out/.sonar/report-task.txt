@@ -1,0 +1,6 @@
+projectKey=Grupo_2-HousesPeru
+serverUrl=https://sonar.sky4dev.com
+serverVersion=6.7.6.38781
+dashboardUrl=https://sonar.sky4dev.com/dashboard/index/Grupo_2-HousesPeru
+ceTaskId=AXMwbLanGPvd_mxp_qSb
+ceTaskUrl=https://sonar.sky4dev.com/api/ce/task?id=AXMwbLanGPvd_mxp_qSb

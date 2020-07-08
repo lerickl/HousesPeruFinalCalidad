@@ -1,0 +1,179 @@
+﻿@{
+    ViewBag.Title = "Perfil";
+    if (ViewBag.UserLogged == "ADMINISTRADOR")
+    {
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }
+    if (ViewBag.UserLogged == "AGENTE")
+    {
+        Layout = "~/Views/Shared/_LayoutAgente.cshtml";
+    }
+    if (ViewBag.UserLogged == "USUARIO")
+    {
+        Layout = "~/Views/Shared/_LayoutUsuario.cshtml";
+    }
+    if (ViewBag.UserLogged == null)
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+}
+<hi id="ViewGetUser"></hi>
+<div class="er_cont_User">
+    <div class="er_sombra_User">
+        <div class="container">
+            <section class="section">
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="row">
+
+                            <div class="col-md-12  " style="font-weight: bold; ">
+                                <h1>Perfil de Usuario</h1>
+                                <hr />
+                            </div>
+
+
+                            <form class="col-md-12" action="/usuario/getuser" method="post" enctype="multipart/form-data">
+                                <div class="row">
+
+
+                                    <div class="col-md-4">
+                                        <div class="er_card_imgPerfil">
+                                            <row id="preview_imgPerfil">
+                                                <img id="ImgPerfil1" src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" />
+
+
+
+                                            </row>
+                                            <label for="imgperfil" class="er_scroll_botAdd"><i class="fas fa-angle-double-up"></i></label>
+                                            <label for="" id="imgperfilDel" class="er_scroll_botDel"><i class="far fa-trash-alt"></i></label>
+                                            <input id="imgperfil" name="imgperfil" type="file" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="md-form">
+                                                    <input id="Nombre" value="@ViewBag.Usuario.Nombre" name="Nombre" type="text" ¨placeholder="" class="form-control validate   ">
+                                                    <label data-error="wrong" data-success="right" for="Nombre">Nombre</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class=" md-form">
+                                                    <input id="ApellidoP" value="@ViewBag.Usuario.ApellidoP" name="ApellidoP" type="text" ¨placeholder="" class="form-control validate  ">
+                                                    <label data-error="wrong" data-success="right" for="ApellidoP">Apellido Paterno</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="md-form">
+                                                    <input id="ApellidoM" value="@ViewBag.Usuario.ApellidoM" name="ApellidoM" type="text" ¨placeholder="" class="form-control validate">
+                                                    <label data-error="wrong" data-success="right" for="ApellidoM">Apellido Materno</label>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="md-form">
+                                                    <input id="Email" value="@ViewBag.Usuario.Email"  name="Email" type="email" ¨placeholder="" class="form-control validate " >
+                                                    <label data-error="wrong" data-success="right" for="Email">Email</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class="md-form">
+                                                    <input type="date" value="@ViewBag.FechaNacimiento"  class="form-control" ¨placeholder="" name="FechaNacimiento" id="FechaNacimiento" />
+                                                    <label class="label-control" for="FechaNacimiento">Fecha de Nacimiento</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="md-form">
+                                                    <select class="browser-default custom-select" name="Sexo">
+                                                        @if (ViewBag.Usuario.Sexo == null)
+                                                        {
+                                                            <option value="0" selected>Seleccione su Sexo</option>
+
+                                                            <option value="Hombre">Hombre</option>
+                                                            <option value="Mujer">Mujer</option>
+                                                        }
+                                                        else
+                                                        {
+                                                            if (ViewBag.Usuario.Sexo == "0")
+                                                            {
+                                                                <option value="0" selected>Seleccione su Sexo</option>
+                                                                <option value="Hombre">Hombre</option>
+                                                                <option value="Mujer">Mujer</option>
+                                                            }
+                                                            else
+                                                            {
+                                                                <option value="@ViewBag.Usuario.Sexo" selected>@ViewBag.Usuario.Sexo</option>
+
+                                                                <option value="0">Seleccione su Sexo</option>
+                                                                <option value="Hombre">Hombre</option>
+                                                                <option value="Mujer">Mujer</option>
+                                                            }
+
+
+
+                                                        }
+
+
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+
+                                            <div class="col-md-6">
+
+                                                <label>Contraseña: ********</label>
+
+                                            </div>
+                                            <div class="col-md-6">
+
+                                                <button class=" btn purple-gradient btn-rounded waves-effect waves-light">Cambiar Contraseña</button>
+                                            </div>
+
+
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+                                            <div class="col-md-6">
+
+                                                <button type="submit" class=" btn blue-gradient btn-rounded waves-effect waves-light">Guardar</button>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <hr />
+                            </form>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+</div>
+
+<script>
+
+</script>

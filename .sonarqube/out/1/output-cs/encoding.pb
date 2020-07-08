@@ -1,0 +1,10 @@
+/
+&D:\calidad\HousesPeru\Tests\Program.csutf-8?
+6D:\calidad\HousesPeru\Tests\Properties\AssemblyInfo.csutf-8J
+AD:\calidad\HousesPeru\Tests\TestControllers\HomeControllerTest.csutf-8N
+ED:\calidad\HousesPeru\Tests\TestControllers\InmuebleControllerTest.csutf-8J
+AD:\calidad\HousesPeru\Tests\TestControllers\PlanControllerTest.csutf-8Q
+HD:\calidad\HousesPeru\Tests\TestControllers\PublicacionControllerTest.csutf-8M
+DD:\calidad\HousesPeru\Tests\TestControllers\UsuarioControllerTest.csutf-8?
+6D:\calidad\HousesPeru\Tests\TestSelenium\HousesTest.csutf-8D
+;D:\calidad\HousesPeru\Tests\TestServices\AuthServiceTest.csutf-8

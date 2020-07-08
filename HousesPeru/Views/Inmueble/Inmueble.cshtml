@@ -1,0 +1,337 @@
+﻿
+@{
+    ViewBag.Title = "EditInmueble";
+    if (ViewBag.UserLogged == "ADMINISTRADOR")
+    {
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }
+    if (ViewBag.UserLogged == "AGENTE")
+    {
+        Layout = "~/Views/Shared/_LayoutAgente.cshtml";
+    }
+    if (ViewBag.UserLogged == "USUARIO")
+    {
+        Layout = "~/Views/Shared/_LayoutUsuario.cshtml";
+    }
+    if (ViewBag.UserLogged == null)
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+}
+
+<div class="ed_editInmView">
+    <div></div>
+    <div class="container-fluid mb-5">
+
+        <div class="row" style="margin-top: -10px;">
+
+            <!--Grid column-->
+            <div class="col-md-12" style=" opacity: 0.9; ">
+
+                <div class="card pb-5">
+                    <div class="card-body">
+
+                        <div class="container"> 
+                            <section class="section"> 
+                                <h2 class="font-weight-bold text-center ">Editar</h2>  
+                                <div class="row pt-5"> 
+                                    <div class="col-md-12 col-xl-12" style="font-family: Bahnschrift;">
+                                        <form action="/Inmueble/Inmueble" method="post" enctype="multipart/form-data">
+                                            <div class="row">
+                                                <div class="col-md-4" >
+                                                    <div class="md-form" style="color:red" >
+                                                        <input id="InmuebleId" name="InmuebleId" value="@ViewBag.Inmueble.InmuebleId" hidden></input>
+
+                                                        <input id="NombreInm" value="@ViewBag.Inmueble.NombreInm" name="NombreInm" type="text" ¨placeholder="" class="form-control validate black-text  ">
+                                                        <label for="NombreInm " data-success="right" @*style="color:black"*@ class="font-weight-bold ">Nombre</label>
+                                                        @Html.ValidationMessage("Nombre")
+                                                    </div>
+                                                    <div class="md-form"  style="color:black">
+                                                        <h6 for="IdCiudades" class="font-weight-bold" >Ciudad</h6>
+                                                        @Html.ValidationMessage("Ciudad")
+                                                        <select class="combobox form-control" name="IdCiudades">
+                                                            @if (ViewBag.Inmueble.CiudadId != null)
+                                                            {
+                                                                foreach (var ciudad in ViewBag.Ciudades)
+                                                                {
+                                                                    if (ciudad.CiudadesId == ViewBag.Inmueble.CiudadId)
+                                                                    {
+                                                                        <option value="@ciudad.CiudadesId" id="@ciudad.CiudadesId" selected="selected">@ciudad.Nombre</option>
+                                                                    }
+                                                                }
+
+                                                            }
+
+                                                            @foreach (var ciudad in ViewBag.Ciudades)
+                                                            {
+                                                                <option value="@ciudad.CiudadesId" id="@ciudad.Nombre">@ciudad.Nombre</option>
+                                                            }
+
+                                                        </select>
+
+                                                    </div>
+                                                    <div class="md-form" style="color:red">
+
+                                                        <input value="@ViewBag.Inmueble.UbicacionInm" id="UbicacionInm" name="UbicacionInm" type="text" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label for="UbicacionInm" class="font-weight-bold">Dirección</label>
+                                                        @Html.ValidationMessage("UbicacionInm")
+                                                    </div>
+                                                    <div class="md-form" style="color:red">
+
+                                                        <textarea id="Descripcion" name="Descripcion" type="text" ¨placeholder="" class="form-control validate blue-grey-text col-md-12 ">@ViewBag.Inmueble.Descripcion</textarea>
+                                                        <label for="Descripcion" style=" margin-top: -0.5em " class="font-weight-bold">Descripción</label>
+                                                        @Html.ValidationMessage("Descripcion")
+                                                    </div>
+                                                    <div class="md-form" style="color:red">
+
+
+                                                        <input id="Area" name="Area" value="@ViewBag.Inmueble.Area" type="number" ¨placeholder="" min="0" pattern="^[0-9]+" class="form-control validate black-text col-md-12 ">
+                                                        <label class="font-weight-bold" data-error="wrong" data-success="right" for="Area">Area : en m²</label>
+                                                        @Html.ValidationMessage("Area")
+                                                    </div>
+                                                    <div class="md-form" style="color:red">
+
+                                                        <input id="NumCelular" value="@ViewBag.Inmueble.NumCelular" name="NumCelular" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label class="font-weight-bold" data-error="wrong" data-success="right" for="NumCelular">Telefono Para Contacto:</label>
+                                                        @Html.ValidationMessage("Telefono")
+                                                    </div>
+ 
+                                                </div>
+
+                                                <div class="col-md-4" style="color:red">
+                                                    @Html.ValidationMessage("InmuebleTipo")
+
+                                                    <div class="md-form">
+                                                        <h6 for="IdInmuebleTip"class="font-weight-bold" style="color:black">Tipo de Inmueble</h6>
+                                                        <select class="combobox form-control" name="IdInmuebleTip" id="IdInmuebleTip">
+                                                            <option value="0" selected="selected"> </option>
+                                                            @if (ViewBag.Inmueble.InmuebleTipoId != null)
+                                                            {
+                                                                foreach (var dato in ViewBag.InmuebleTipo)
+                                                                {
+                                                                    if (dato.InmuebleTipoId == ViewBag.Inmueble.InmuebleTipoId)
+                                                                    {
+                                                                        <option value="@ViewBag.Inmueble.InmuebleTipoId" id="@dato.Nombre" selected="selected">@dato.Nombre</option>
+
+                                                                    }
+
+                                                                }
+                                                            }
+
+                                                            @foreach (var tipinm in ViewBag.InmuebleTipo)
+                                                            {
+                                                                <option value="@tipinm.InmuebleTipoId" id="@tipinm.Nombre">@tipinm.Nombre</option>
+                                                            }
+                                                        </select> 
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input value="@ViewBag.Inmueble.Pisos" id="Pisos" name="Pisos" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label id="LabPisos" class="font-weight-bold" data-error="wrong" data-success="right" for="Pisos">Pisos </label>
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input value="@ViewBag.Inmueble.Piso" id="Piso" name="Piso" type="number" for="LabPiso" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label id="LabPiso" class="font-weight-bold" data-error="wrong" data-success="right" for="Piso">Piso </label>
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input value="@ViewBag.Inmueble.NumHabitaciones" id="NumHabitaciones" name="NumHabitaciones" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label id="LabNumHabitaciones" class="font-weight-bold" data-error="wrong" data-success="right" for="NumHabitaciones">Habitaciones</label>
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input value="@ViewBag.Inmueble.Baños" id="Baños" name="Baños" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label id="LabBaños" class="font-weight-bold" data-error="wrong" data-success="right" for="Baños">Baños</label>
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input value="@ViewBag.Inmueble.Garages" id="Garages" name="Garages" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label id="LabGarages" class="font-weight-bold" data-error="wrong" data-success="right" for="Garages">Garages</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="md-form" style="color:red">
+                                                        @Html.ValidationMessage("Moneda")
+                                                        <h6 class="font-weight-bold" style="color:black">Moneda</h6>
+                                                        <select class="combobox form-control" name="Moneda" id="Moneda">
+                                                            @if (ViewBag.Inmueble.Moneda != null)
+                                                            {
+                                                                <option value="@ViewBag.Inmueble.Moneda" selected="selected">@ViewBag.Inmueble.Moneda</option>
+                                                            }
+                                                            else
+                                                            {
+                                                                <option value="0" selected="selected">Selecciona Tipo Moneda</option>
+                                                            }
+
+                                                            <option value="Soles" id="Soles">Soles</option>
+                                                            <option value="Dolares" id="Dolares">Dolares</option>
+
+                                                        </select>
+                                                    </div>
+                                                    <h7 class="font-weight-bold" style="color:black"> Estado </h7>
+                                                    <div class="md-textarea">
+                                                        <div class=" ">
+                                                            <div class="form-check">
+                                                                @if (ViewBag.Inmueble.PrecioAlquilerInm == null)
+                                                                {
+                                                                    <input type="checkbox"   class="checkbox" id="AlquilerID">
+                                                                    <label for="AlquilerID" style="color:royalblue"> Alquiler</label>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <input type="checkbox"value="1" class="checkbox" id="AlquilerID"checked>
+                                                                    <label for="AlquilerID" style="color:royalblue"> Alquiler</label>
+                                                                }
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="md-textarea">
+                                                        <div class=" ">
+                                                            <div class="form-check">
+                                                                @if (ViewBag.Inmueble.PrecioVentaInm == null)
+                                                                {
+                                                                    <input type="checkbox" class="checkbox" id="VentaID">
+                                                                    <label for="VentaID" style="color:royalblue"> Venta </label>
+                                                                }
+                                                                else
+                                                                { <input type="checkbox" class="checkbox" id="VentaID" checked>
+                                                                    <label for="VentaID" style="color:royalblue"> Venta </label>
+                                                                }
+
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="md-form">
+                                                        @if (ViewBag.Inmueble.PrecioAlquilerInm == null)
+                                                        {
+                                                            <label hidden id="LabPrecioAlquilerInm" style="color:black" data-error="wrong" data-success="right" for="Form-name">Precio Alquiler</label>
+                                                            <input hidden id="PrecioAlquilerInm" value="@ViewBag.Inmueble.PrecioAlquilerInm" name="PrecioAlquilerInm" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+
+                                                        }
+                                                        else
+                                                        {
+
+                                                            <input id="PrecioAlquilerInm" value="@ViewBag.Inmueble.PrecioAlquilerInm" name="PrecioAlquilerInm" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                            <label id="LabPrecioAlquilerInm"  data-error="wrong" data-success="right" for="PrecioAlquilerInm">Precio Alquiler</label>
+                                                        }
+
+                                                    </div>
+                                                    <div class="md-form">
+                                                        @if (ViewBag.Inmueble.PrecioVentaInm == null)
+                                                        {
+
+                                                            <input hidden id="PrecioVentaInm" value="@ViewBag.Inmueble.PrecioVentaInm" name="PrecioVentaInm" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12">
+                                                            <label hidden id="LabPrecioVentaInm"  data-error="wrong" data-success="right" for="PrecioVentaInm">Precio Venta</label>
+                                                        }
+                                                        else
+                                                        {
+
+                                                            <input id="PrecioVentaInm" value="@ViewBag.Inmueble.PrecioVentaInm" name="PrecioVentaInm" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12">
+                                                            <label id="LabPrecioVentaInm"  data-error="wrong" data-success="right" for="PrecioVentaInm">Precio Venta</label>
+                                                        }
+
+                                                    </div>
+                                                    <h7 class="font-weight-bold" style="color:black"> Agregar Imagenes </h7>
+                                                    <div class="er_scroll_img">
+                                                        @{var i = 1; }
+                                                        @{foreach (var img in ViewBag.Imagen)
+                                                            {
+                                                                var dato = "img" + i;
+                                                                var datodel = dato + "Del";
+                                                                var input = "Imagen";
+                                                                <div class="BotonUpload">
+                                                                    @if (img.Img != null)
+                                                                    {
+                                                                        <div>
+                                                                            <label for="@dato" class="er_scroll_botAdd"><i class="fas fa-angle-double-up"></i></label>
+                                                                            <label for="" id="@datodel" class="er_scroll_botDel "value="@img.ImagenId"  ><i class="far fa-trash-alt"></i></label>
+                                                                            <input id="@dato" name="@input" type="file" />
+                                                                            <row id="file-preview-@dato">
+                                                                                <img src="@img.Img" id="@img.ImagenId"/>
+                                                                            </row>
+
+                                                                        </div>
+                                                                    }
+
+                                                                </div>
+                                                                i++;
+
+
+                                                            }
+
+                                                        }
+                                                        @for (int j = i ; j < 21; j++)
+                                                         {
+                                                                var dato = "img" + j;
+                                                                var datodel = dato + "Del";
+                                                                var input = "Imagen";
+                                                            <div class="BotonUpload">
+                                                                <div>
+                                                                    <label for="@dato" class="er_scroll_botAdd"><i class="fas fa-angle-double-up"></i></label>
+                                                                    <label for="" id="@datodel" class="er_scroll_botDel"><i class="far fa-trash-alt"></i></label>
+                                                                    <input id="@dato" name="@input" type="file" />
+                                                                    <row id="file-preview-@dato">
+                                                                       
+
+
+                                                                    </row>
+
+                                                                </div>
+                                                            </div>
+                                                        }
+
+
+
+                                                    </div>
+                                                </div>               
+                                             
+
+                                            </div> 
+                                             
+                                            <div class="md-form">
+                                                <div class="text-center text-md-left my-4">
+                                                    <button type="submit" class="btn peach-gradient">Guardar</button>
+                                                </div>
+                                            </div>
+                                               
+                                                                              
+
+                                        </form>
+
+                                    </div> 
+                                   
+                                </div>
+                            </section>
+                            <!--Section: Contact v.2-->
+                        </div>
+                    </div>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+    </div>
+  
+</div>
+ 
+@*<style>
+    .map-container-section {
+        overflow: hidden;
+        /* padding-bottom:56.25%; */
+        position: relative;
+        height: 0;
+    }
+
+        .map-container-section iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+</style>*@

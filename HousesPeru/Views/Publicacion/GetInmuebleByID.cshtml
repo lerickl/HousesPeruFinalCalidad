@@ -1,0 +1,266 @@
+﻿
+@{
+    ViewBag.Title = ViewBag.Inmueble.NombreInm;
+    if (ViewBag.UserLogged == "ADMINISTRADOR")
+    {
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }
+    if (ViewBag.UserLogged == "AGENTE")
+    {
+        Layout = "~/Views/Shared/_LayoutAgente.cshtml";
+    }
+    if (ViewBag.UserLogged == "USUARIO")
+    {
+        Layout = "~/Views/Shared/_LayoutUsuario.cshtml";
+    }
+    if (ViewBag.UserLogged == null)
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    int cont = 0;
+    string url = null;
+    foreach (var imagenes in ViewBag.Imagenes)
+    {
+        if (imagenes.InmuebleId == ViewBag.inmueble.InmuebleId)
+        {
+            url = imagenes.Img;
+        }
+    }
+}
+ 
+<meta property="og:url" content="http://www.housesinperu.com/Publicacion/GetInmuebleByID?IdInmueble=@ViewBag.inmueble.InmuebleId" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content=">@ViewBag.Inmueble.NombreInm" />
+<meta property="og:description" content="Inmueble" />
+<meta property="og:image" content="@url" />
+ 
+
+
+<div class="form-horizontal">
+    <h1 id="ViewInmueble"></h1>
+    <div class="er_Cont_Inmuebles">
+        <div class="er_sombra_Inmuebles ">
+            <div>
+                <div class="col-md-12 row" style=" margin-left:auto; margin-right:auto;">
+                    <div id="carouselpag" class="col-md-4  carousel slide carousel-fade" data-ride="carousel">
+                        @*<img src="~/Content/images/carousel1.jpg" style="max-width:100%;height:500px; width:400px" class="img-fluid img-responsive" />*@
+
+                        @{var temp = 1; }
+                        <div class="carousel-inner ">
+                            @foreach (var imagenes in ViewBag.Imagenes)
+                            {
+                                if (imagenes.InmuebleId == ViewBag.inmueble.InmuebleId)
+                                {
+
+                                    if (imagenes.Img != null && temp == 1)
+                                    {
+                                        <div class="carousel-item active ">
+                                            <img class="d-block img-fluid img-responsive" src="@imagenes.Img">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                @*<h3>Numero: @ViewBag.inmueble.NumCelular</h3>*@
+
+                                            </div>
+                                        </div>
+                                        cont++;
+                                        temp++;
+                                    }
+                                    else
+                                    {
+                                        <div class="carousel-item ">
+                                            <img class="d-block img-fluid" src="@imagenes.Img">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                @*<h3>Numero: @ViewBag.inmueble.NumCelular</h3>*@
+                                                <p> </p>
+                                            </div>
+                                        </div>
+
+                                        cont++;
+                                    }
+
+                                }
+                            }
+
+
+                        </div>
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselpag" data-slide-to="0" class="active"></li>
+                            @for (int i = 1; i < cont; i++)
+                            {
+                                <li data-target="#carouselpag" data-slide-to="@i"></li>
+                            }
+
+
+
+                        </ol>
+                        <a href="#carouselpag" class="carousel-control-prev  " role="button" data-slide="prev">
+                            <i class="fas fa-step-backward black"></i>
+                        </a>
+                        <a href="#carouselpag" class="carousel-control-next  " role="button" data-slide="next">
+                            <i class="fas fa-step-forward black"></i>
+                        </a>
+
+
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row ">
+                            <div class="col-md-8 er_sombra_Inmueblestituloinm">
+                                <h2>@ViewBag.Inmueble.NombreInm</h2>
+                                @*<h6>@ViewBag.Inmueble.Descripcion</h6>*@
+                                <hr />
+                                <div>
+                                    @if (@ViewBag.inmueble.PrecioVentaInm != null)
+                                    {
+                                        if (@ViewBag.inmueble.Moneda == "Soles")
+                                        {
+                                            <p3 href="#" class="mx-1" role="button"><i class="fas fa-shopping-cart"> Precio Venta:  S/.@ViewBag.inmueble.PrecioVentaInm  </i></p3>
+                                        }
+                                        if (@ViewBag.inmueble.Moneda == "Dolares")
+                                        {
+                                            <p3 href="#" class="mx-1" role="button"><i class="fas fa-shopping-cart"> Precio Venta:  $/.@ViewBag.inmueble.PrecioVentaInm  </i></p3>
+                                        }
+
+                                    }@if (@ViewBag.inmueble.PrecioAlquilerInm != null)
+                                    {
+                                        if (@ViewBag.inmueble.Moneda == "Soles")
+                                        {
+                                            <p3 href="#" class="mx-1" role="button"><i class="fas fa-tags "> Precio Alquiler:  S/.@ViewBag.inmueble.PrecioAlquilerInm </i></p3>
+                                        }
+                                        if (@ViewBag.inmueble.Moneda == "Dolares")
+                                        {
+                                            <p3 href="#" class="mx-1" role="button"><i class="fas fa-tags "> Precio Alquiler:  $/.@ViewBag.inmueble.PrecioAlquilerInm </i></p3>
+                                        }
+
+                                    }
+                                </div>
+                                <hr />
+                                <div>
+                                    @if (@ViewBag.inmueble.NumHabitaciones != null)
+                                    {
+                                        <p3 href="#" class="mx-1" role="button"><i class="fas fa-bed"> Habitaciones: @ViewBag.inmueble.NumHabitaciones </i></p3>
+                                    }@if (@ViewBag.inmueble.Baños != null)
+                                    {
+                                        <p3 href="#" class="mx-1" role="button"><i class="fas fa-bath"> Baños: @ViewBag.inmueble.Baños </i></p3>
+                                    }@if (@ViewBag.inmueble.Garages != null)
+                                    {
+                                        <p3 href="#" class="mx-1" role="button"><i class="fas fa-car"> Garage: @ViewBag.inmueble.Garages </i></p3>
+                                    }
+                                </div>
+                                <hr />
+                                <div>
+                                    @if (@ViewBag.inmueble.UbicacionInm != null)
+                                    {
+                                        <p3 href="#" class="mx-3" role="button"><i class="fas fa-map-marker-alt"> Ubicacion:  </i></p3>
+                                        <h6 style="color:black">@ViewBag.inmueble.UbicacionInm </h6>
+                                    }
+                                </div>
+                                <hr />
+                                <div>
+                                    @if (@ViewBag.inmueble.Descripcion != null)
+                                    {
+                                        <p3 href="#" class="mx-3" role="button"><i class="fas fa-align-justify"> Descripcion:  </i></p3>
+                                        <h6 style="color:black">@ViewBag.inmueble.Descripcion </h6>
+                                    }
+                                </div>
+
+                                @*<div class="row">
+                                        <div class="col-md-4 text-center" >
+
+                                        </div>
+                                        <hr />
+                                        <div class="col-md-4">
+                                            <hi>1</hi>
+                                            <hi>2</hi>
+                                        </div>
+                                    </div>*@
+                                <hr />
+                                <p3 style="font-weight: bold;">Compartir|</p3>
+                                <div class="col-md-4">
+
+
+                                    <row class="er_sombra_Inmueble_containerShare fb-share-button">
+                                        <a name="share-fb" target="_blank" class="mx-1  " role="button" href="http://www.facebook.com/sharer.php?u=http://www.housesinperu.com/Publicacion/GetInmuebleByID?IdInmueble=@ViewBag.inmueble.InmuebleId"><i class="fab fa-facebook-f"></i></a>
+
+                                    </row>
+                                    <row class="er_sombra_Inmueble_containerSharewsp">
+                                        <a name="share-whatsapp" href="whatsapp://send?text=http://www.housesinperu.com/Publicacion/GetInmuebleByID?IdInmueble=@ViewBag.inmueble.InmuebleId" data-action="share/whatsapp/share" class="mx-1 " role="button"><i class="fab fa-whatsapp"> </i></a>
+
+                                    </row>
+                                    <div class="er_sombra_Inmueble_containerPhone">
+                                        <a name="" class="mx-1  " role="button" href="tel:@ViewBag.inmueble.NumCelular"><i class="fa fa-phone-square"> Llamar: @ViewBag.inmueble.NumCelular</i></a>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-4 er_sombra_Inmueblestituloinm md-form">
+                                <h4>Contacto</h4>
+                                <div class="md-form">
+                                    <input type="text" id="contact-name" class="form-control">
+                                    <label for="contact-name" class="">Nombre</label>
+
+                                </div>
+                                <div class="md-form">
+                                    <input type="text" id="contact-email" class="form-control">
+                                    <label for="contact-email" class="">Email</label>
+
+                                </div>
+                                <div class="md-form">
+                                    <input type="text" id="contact-Subject" class="form-control">
+                                    <label for="contact-Subject" class="">Asunto</label>
+                                </div>
+                                <div class="md-form">
+                                    <textarea type="text" id="contact-message" class="md-textarea form-control" rows="3"></textarea>
+                                    <label for="contact-message">Mensaje</label>
+                                </div>
+
+                                <a class="btn peach-gradient">Enviar</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 row" style=" margin-left:auto; margin-right:auto;">
+                <div class="col-md-12 er_sombra_Inmueblestituloinm">
+                    <hr />
+                    <hr />
+                    <h4>Propiedades similares</h4>
+                    <div class="row">
+                        <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">
+                            <div class="MultiCarousel-inner">
+                                @foreach (var Inmueble in ViewBag.Inmuebles)
+                                {
+                                    foreach (var Imagen in ViewBag.AllImgInmuebles)
+                                    {
+
+                                        if (Imagen.InmuebleId == Inmueble.InmuebleId)
+                                        {
+                                            <div class="item" style="opacity:0.95">
+                                                <a href="/Publicacion/GetInmuebleByID?IdInmueble=@Inmueble.InmuebleId">
+                                                    <img src="@Imagen.Img" style="min-width:238px;height:250px;" loading="lazy" />
+                                                </a>
+
+                                            </div>
+                                        }
+                                    }
+                                }
+
+                            </div>
+                            <button class="leftLst" style="background-color:transparent;color:black; opacity:0.5; font-weight: bold;font-size:60px;  "><</button>
+                            <button class="rightLst" style="background-color:transparent;color:black; opacity:0.5;font-weight: bold;font-size:60px; ">></button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,3746 @@
+{
+  "version": "0.1",
+  "toolInfo": {
+    "toolName": "Compilador de Microsoft (R) Visual C#",
+    "productVersion": "1.0.0",
+    "fileVersion": "1.0.0"
+  },
+  "issues": [
+    {
+      "ruleId": "CS0219",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 30,
+                "startColumn": 19,
+                "endLine": 30,
+                "endColumn": 31
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "La variable 'NumerosRegex' está asignada pero su valor nunca se usa",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "3",
+        "defaultSeverity": "Warning",
+        "title": "La variable está asignada pero nunca se usa su valor",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0219",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 27,
+                "startColumn": 19,
+                "endLine": 27,
+                "endColumn": 29
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "La variable 'EmailRegex' está asignada pero su valor nunca se usa",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "3",
+        "defaultSeverity": "Warning",
+        "title": "La variable está asignada pero nunca se usa su valor",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "CS0169",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 17,
+                "startColumn": 45,
+                "endLine": 17,
+                "endColumn": 47
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "El campo 'ValidacionInmueble.db' nunca se usa",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "3",
+        "defaultSeverity": "Warning",
+        "title": "Nunca se usa el campo",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "S1118",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\RouteConfig.cs",
+              "region": {
+                "startLine": 9,
+                "startColumn": 17,
+                "endLine": 9,
+                "endColumn": 28
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+      "fullMessage": "Utility classes, which are collections of static members, are not meant to be instantiated. Even abstract utility classes, which can be extended, should not have public constructors.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Utility classes should not have public constructors",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1118",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\BundleConfig.cs",
+              "region": {
+                "startLine": 5,
+                "startColumn": 17,
+                "endLine": 5,
+                "endColumn": 29
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+      "fullMessage": "Utility classes, which are collections of static members, are not meant to be instantiated. Even abstract utility classes, which can be extended, should not have public constructors.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Utility classes should not have public constructors",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1118",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\FilterConfig.cs",
+              "region": {
+                "startLine": 5,
+                "startColumn": 17,
+                "endLine": 5,
+                "endColumn": 29
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+      "fullMessage": "Utility classes, which are collections of static members, are not meant to be instantiated. Even abstract utility classes, which can be extended, should not have public constructors.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Utility classes should not have public constructors",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\ViewModels\UsuarioViewModel.cs",
+              "region": {
+                "startLine": 18,
+                "startColumn": 4,
+                "endLine": 18,
+                "endColumn": 7
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\ViewModels\PublicacionViewModel.cs",
+              "region": {
+                "startLine": 9,
+                "startColumn": 8,
+                "endLine": 9,
+                "endColumn": 46
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\UnityConfig.cs",
+              "region": {
+                "startLine": 42,
+                "startColumn": 12,
+                "endLine": 42,
+                "endColumn": 45
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\UnityMvcActivator.cs",
+              "region": {
+                "startLine": 26,
+                "startColumn": 12,
+                "endLine": 26,
+                "endColumn": 135
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1135",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\UnityConfig.cs",
+              "region": {
+                "startLine": 44,
+                "startColumn": 15,
+                "endLine": 44,
+                "endColumn": 19
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Complete the task associated to this 'TODO' comment.",
+      "fullMessage": "TODO tags are commonly used to mark places where some more code is required, but which the developer wants to implement later.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Track uses of "TODO" tags",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1135",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\HomeController.cs",
+              "region": {
+                "startLine": 152,
+                "startColumn": 8,
+                "endLine": 152,
+                "endColumn": 98
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\InmuebleController.cs",
+              "region": {
+                "startLine": 110,
+                "startColumn": 12,
+                "endLine": 110,
+                "endColumn": 87
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\InmuebleController.cs",
+              "region": {
+                "startLine": 186,
+                "startColumn": 12,
+                "endLine": 186,
+                "endColumn": 33
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\DB\HousesInPeruContext.cs",
+              "region": {
+                "startLine": 1,
+                "startColumn": 0,
+                "endLine": 1,
+                "endColumn": 27
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\DB\HousesInPeruContext.cs",
+              "region": {
+                "startLine": 10,
+                "startColumn": 0,
+                "endLine": 10,
+                "endColumn": 49
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\DB\HousesInPeruContext.cs",
+              "region": {
+                "startLine": 19,
+                "startColumn": 8,
+                "endLine": 19,
+                "endColumn": 71
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\DB\HousesInPeruContext.cs",
+              "region": {
+                "startLine": 34,
+                "startColumn": 12,
+                "endLine": 34,
+                "endColumn": 78
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1135",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\UnityMvcActivator.cs",
+              "region": {
+                "startLine": 25,
+                "startColumn": 15,
+                "endLine": 25,
+                "endColumn": 19
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Complete the task associated to this 'TODO' comment.",
+      "fullMessage": "TODO tags are commonly used to mark places where some more code is required, but which the developer wants to implement later.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Track uses of "TODO" tags",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1135",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 136,
+                "startColumn": 12,
+                "endLine": 136,
+                "endColumn": 95
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1144",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 17,
+                "startColumn": 8,
+                "endLine": 17,
+                "endColumn": 48
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove the unused private field 'db'.",
+      "fullMessage": "private or internal types or private members that are never executed or referenced are dead code: unnecessary, inoperative code that should be removed. Cleaning out dead code decreases the size of the maintained codebase, making it easier to understand the program and preventing bugs from being introduced.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Unused private types or members should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1144",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\UsuarioService.cs",
+              "region": {
+                "startLine": 37,
+                "startColumn": 8,
+                "endLine": 37,
+                "endColumn": 33
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\UsuarioService.cs",
+              "region": {
+                "startLine": 102,
+                "startColumn": 8,
+                "endLine": 102,
+                "endColumn": 97
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\UsuarioService.cs",
+              "region": {
+                "startLine": 109,
+                "startColumn": 8,
+                "endLine": 109,
+                "endColumn": 45
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Models\Plan.cs",
+              "region": {
+                "startLine": 15,
+                "startColumn": 8,
+                "endLine": 15,
+                "endColumn": 25
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\PublicacionService.cs",
+              "region": {
+                "startLine": 12,
+                "startColumn": 8,
+                "endLine": 12,
+                "endColumn": 57
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\PublicacionService.cs",
+              "region": {
+                "startLine": 29,
+                "startColumn": 12,
+                "endLine": 29,
+                "endColumn": 35
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be "commented out"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1117",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\UnityConfig.cs",
+              "region": {
+                "startLine": 17,
+                "startColumn": 18,
+                "endLine": 17,
+                "endColumn": 27
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Rename 'container' which hides the field with the same name.",
+      "fullMessage": "Shadowing fields with a local variable is a bad practice that reduces code readability: it makes it confusing to know whether the field or the variable is being used.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Local variables should not shadow class fields",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1117",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1450",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\InmuebleController.cs",
+              "region": {
+                "startLine": 21,
+                "startColumn": 45,
+                "endLine": 21,
+                "endColumn": 55
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove the 'PublicServ' field and declare it as a local variable in the relevant methods.",
+      "fullMessage": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Private fields only used as local variables in methods should become local variables",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S4144",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\PlanController.cs",
+              "region": {
+                "startLine": 45,
+                "startColumn": 28,
+                "endLine": 45,
+                "endColumn": 38
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\PlanController.cs",
+              "region": {
+                "startLine": 26,
+                "startColumn": 28,
+                "endLine": 26,
+                "endColumn": 37
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Update this method so that its implementation is not identical to 'GetPlanes'.",
+      "fullMessage": "When two methods have the same implementation, either it was a mistake - something else was intended - or the duplication was intentional, but may be confusing to maintainers. In the latter case, one implementation should invoke the other.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Methods should not have identical implementations",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-4144",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S3903",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\UsuarioService.cs",
+              "region": {
+                "startLine": 25,
+                "startColumn": 17,
+                "endLine": 25,
+                "endColumn": 31
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Move the type 'UsuarioService' into a named namespace.",
+      "fullMessage": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Types should be defined in named namespaces",
+        "category": "Sonar Bug",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1104",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\CloudinaryService.cs",
+              "region": {
+                "startLine": 15,
+                "startColumn": 33,
+                "endLine": 15,
+                "endColumn": 43
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make this field 'private' and encapsulate it in a 'public' property.",
+      "fullMessage": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Fields should not have public accessibility",
+        "category": "Sonar Vulnerability",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S2223",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\CloudinaryService.cs",
+              "region": {
+                "startLine": 15,
+                "startColumn": 33,
+                "endLine": 15,
+                "endColumn": 43
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Change the visibility of 'cloudinary' or make it 'const' or 'readonly'.",
+      "fullMessage": "A static field that is neither constant nor read-only is not thread-safe. Correctly accessing these fields from different threads needs synchronization with locks. Improper synchronization may lead to unexpected results, thus publicly visible static fields are best suited for storing non-changing data shared by many consumers. To enforce this intent, these fields should be marked readonly or converted to constants.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Non-constant static fields should not be visible",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-2223",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S2933",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\CloudinaryService.cs",
+              "region": {
+                "startLine": 16,
+                "startColumn": 16,
+                "endLine": 16,
+                "endColumn": 23
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make 'account' 'readonly'.",
+      "fullMessage": "readonly fields can only be assigned in a class constructor. If a class has a field that's not marked readonly but is only set in the constructor, it could cause confusion about the field's intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Fields that are only assigned in the constructor should be "readonly"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S2933",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\AuthService.cs",
+              "region": {
+                "startLine": 18,
+                "startColumn": 28,
+                "endLine": 18,
+                "endColumn": 35
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make 'context' 'readonly'.",
+      "fullMessage": "readonly fields can only be assigned in a class constructor. If a class has a field that's not marked readonly but is only set in the constructor, it could cause confusion about the field's intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Fields that are only assigned in the constructor should be "readonly"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1450",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\PublicacionController.cs",
+              "region": {
+                "startLine": 23,
+                "startColumn": 45,
+                "endLine": 23,
+                "endColumn": 55
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove the 'publicServ' field and declare it as a local variable in the relevant methods.",
+      "fullMessage": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Private fields only used as local variables in methods should become local variables",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S1450",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\PublicacionController.cs",
+              "region": {
+                "startLine": 20,
+                "startColumn": 44,
+                "endLine": 20,
+                "endColumn": 54
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove the 'Cloudinary' field and declare it as a local variable in the relevant methods.",
+      "fullMessage": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Private fields only used as local variables in methods should become local variables",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S101",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Migrations\202003272041423_version_2.cs",
+              "region": {
+                "startLine": 5,
+                "startColumn": 25,
+                "endLine": 5,
+                "endColumn": 34
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Rename class 'version_2' to match camel case naming rules, consider using 'Version2'.",
+      "fullMessage": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are camel cased. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Types should be named in camel case",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-101",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S101",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Migrations\202004090548358_version_3.cs",
+              "region": {
+                "startLine": 5,
+                "startColumn": 25,
+                "endLine": 5,
+                "endColumn": 34
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Rename class 'version_3' to match camel case naming rules, consider using 'Version3'.",
+      "fullMessage": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are camel cased. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Types should be named in camel case",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-101",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S101",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Migrations\202005062121228_version_4.cs",
+              "region": {
+                "startLine": 5,
+                "startColumn": 25,
+                "endLine": 5,
+                "endColumn": 34
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Rename class 'version_4' to match camel case naming rules, consider using 'Version4'.",
+      "fullMessage": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are camel cased. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Types should be named in camel case",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-101",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S101",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Migrations\202003262101467_version_1.cs",
+              "region": {
+                "startLine": 5,
+                "startColumn": 25,
+                "endLine": 5,
+                "endColumn": 34
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Rename class 'version_1' to match camel case naming rules, consider using 'Version1'.",
+      "fullMessage": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are camel cased. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Types should be named in camel case",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-101",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S2933",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 22,
+                "startColumn": 28,
+                "endLine": 22,
+                "endColumn": 31
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make '_db' 'readonly'.",
+      "fullMessage": "readonly fields can only be assigned in a class constructor. If a class has a field that's not marked readonly but is only set in the constructor, it could cause confusion about the field's intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Fields that are only assigned in the constructor should be "readonly"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S2933",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\PlanService.cs",
+              "region": {
+                "startLine": 19,
+                "startColumn": 28,
+                "endLine": 19,
+                "endColumn": 31
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Make '_db' 'readonly'.",
+      "fullMessage": "readonly fields can only be assigned in a class constructor. If a class has a field that's not marked readonly but is only set in the constructor, it could cause confusion about the field's intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Fields that are only assigned in the constructor should be "readonly"",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1450",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\UsuarioController.cs",
+              "region": {
+                "startLine": 19,
+                "startColumn": 39,
+                "endLine": 19,
+                "endColumn": 49
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove the 'ImagenServ' field and declare it as a local variable in the relevant methods.",
+      "fullMessage": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Private fields only used as local variables in methods should become local variables",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S1450",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\UsuarioController.cs",
+              "region": {
+                "startLine": 18,
+                "startColumn": 42,
+                "endLine": 18,
+                "endColumn": 49
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove the 'InmServ' field and declare it as a local variable in the relevant methods.",
+      "fullMessage": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Private fields only used as local variables in methods should become local variables",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S1450",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\PublicacionService.cs",
+              "region": {
+                "startLine": 19,
+                "startColumn": 37,
+                "endLine": 19,
+                "endColumn": 39
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove the 'db' field and declare it as a local variable in the relevant methods.",
+      "fullMessage": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Private fields only used as local variables in methods should become local variables",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S1075",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\BundleConfig.cs",
+              "region": {
+                "startLine": 10,
+                "startColumn": 41,
+                "endLine": 10,
+                "endColumn": 59
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor your code not to use hardcoded absolute paths or URIs.",
+      "fullMessage": "Hardcoding a URI makes it difficult to test a program: path literals are not always portable across operating systems, a given absolute path may not exist on a specific test environment, a specified Internet URL may not be available when executing the tests, production environment filesystems usually differ from the development environment, ...etc. For all those reasons, a URI should never be hardcoded. Instead, it should be replaced by customizable parameter.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "URIs should not be hardcoded",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1075",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\BundleConfig.cs",
+              "region": {
+                "startLine": 11,
+                "startColumn": 24,
+                "endLine": 11,
+                "endColumn": 55
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor your code not to use hardcoded absolute paths or URIs.",
+      "fullMessage": "Hardcoding a URI makes it difficult to test a program: path literals are not always portable across operating systems, a given absolute path may not exist on a specific test environment, a specified Internet URL may not be available when executing the tests, production environment filesystems usually differ from the development environment, ...etc. For all those reasons, a URI should never be hardcoded. Instead, it should be replaced by customizable parameter.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "URIs should not be hardcoded",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1075",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\BundleConfig.cs",
+              "region": {
+                "startLine": 13,
+                "startColumn": 41,
+                "endLine": 13,
+                "endColumn": 62
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor your code not to use hardcoded absolute paths or URIs.",
+      "fullMessage": "Hardcoding a URI makes it difficult to test a program: path literals are not always portable across operating systems, a given absolute path may not exist on a specific test environment, a specified Internet URL may not be available when executing the tests, production environment filesystems usually differ from the development environment, ...etc. For all those reasons, a URI should never be hardcoded. Instead, it should be replaced by customizable parameter.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "URIs should not be hardcoded",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1075",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\BundleConfig.cs",
+              "region": {
+                "startLine": 14,
+                "startColumn": 24,
+                "endLine": 14,
+                "endColumn": 52
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor your code not to use hardcoded absolute paths or URIs.",
+      "fullMessage": "Hardcoding a URI makes it difficult to test a program: path literals are not always portable across operating systems, a given absolute path may not exist on a specific test environment, a specified Internet URL may not be available when executing the tests, production environment filesystems usually differ from the development environment, ...etc. For all those reasons, a URI should never be hardcoded. Instead, it should be replaced by customizable parameter.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "URIs should not be hardcoded",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1075",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\BundleConfig.cs",
+              "region": {
+                "startLine": 18,
+                "startColumn": 41,
+                "endLine": 18,
+                "endColumn": 62
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor your code not to use hardcoded absolute paths or URIs.",
+      "fullMessage": "Hardcoding a URI makes it difficult to test a program: path literals are not always portable across operating systems, a given absolute path may not exist on a specific test environment, a specified Internet URL may not be available when executing the tests, production environment filesystems usually differ from the development environment, ...etc. For all those reasons, a URI should never be hardcoded. Instead, it should be replaced by customizable parameter.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "URIs should not be hardcoded",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1075",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\BundleConfig.cs",
+              "region": {
+                "startLine": 19,
+                "startColumn": 24,
+                "endLine": 19,
+                "endColumn": 47
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor your code not to use hardcoded absolute paths or URIs.",
+      "fullMessage": "Hardcoding a URI makes it difficult to test a program: path literals are not always portable across operating systems, a given absolute path may not exist on a specific test environment, a specified Internet URL may not be available when executing the tests, production environment filesystems usually differ from the development environment, ...etc. For all those reasons, a URI should never be hardcoded. Instead, it should be replaced by customizable parameter.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "URIs should not be hardcoded",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1075",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\BundleConfig.cs",
+              "region": {
+                "startLine": 21,
+                "startColumn": 41,
+                "endLine": 21,
+                "endColumn": 62
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor your code not to use hardcoded absolute paths or URIs.",
+      "fullMessage": "Hardcoding a URI makes it difficult to test a program: path literals are not always portable across operating systems, a given absolute path may not exist on a specific test environment, a specified Internet URL may not be available when executing the tests, production environment filesystems usually differ from the development environment, ...etc. For all those reasons, a URI should never be hardcoded. Instead, it should be replaced by customizable parameter.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "URIs should not be hardcoded",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1075",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\App_Start\BundleConfig.cs",
+              "region": {
+                "startLine": 25,
+                "startColumn": 40,
+                "endLine": 25,
+                "endColumn": 55
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor your code not to use hardcoded absolute paths or URIs.",
+      "fullMessage": "Hardcoding a URI makes it difficult to test a program: path literals are not always portable across operating systems, a given absolute path may not exist on a specific test environment, a specified Internet URL may not be available when executing the tests, production environment filesystems usually differ from the development environment, ...etc. For all those reasons, a URI should never be hardcoded. Instead, it should be replaced by customizable parameter.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "URIs should not be hardcoded",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S3776",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 26,
+                "startColumn": 20,
+                "endLine": 26,
+                "endColumn": 34
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 32,
+                "startColumn": 12,
+                "endLine": 32,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 34,
+                "startColumn": 12,
+                "endLine": 34,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 34,
+                "startColumn": 50,
+                "endLine": 34,
+                "endColumn": 52
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 36,
+                "startColumn": 12,
+                "endLine": 36,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 36,
+                "startColumn": 50,
+                "endLine": 36,
+                "endColumn": 52
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 38,
+                "startColumn": 67,
+                "endLine": 38,
+                "endColumn": 69
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 39,
+                "startColumn": 12,
+                "endLine": 39,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 42,
+                "startColumn": 12,
+                "endLine": 42,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 44,
+                "startColumn": 12,
+                "endLine": 44,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 44,
+                "startColumn": 53,
+                "endLine": 44,
+                "endColumn": 55
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 46,
+                "startColumn": 12,
+                "endLine": 46,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 46,
+                "startColumn": 53,
+                "endLine": 46,
+                "endColumn": 55
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 48,
+                "startColumn": 73,
+                "endLine": 48,
+                "endColumn": 75
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 49,
+                "startColumn": 12,
+                "endLine": 49,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 52,
+                "startColumn": 12,
+                "endLine": 52,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 54,
+                "startColumn": 12,
+                "endLine": 54,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 54,
+                "startColumn": 53,
+                "endLine": 54,
+                "endColumn": 55
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 56,
+                "startColumn": 12,
+                "endLine": 56,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 56,
+                "startColumn": 53,
+                "endLine": 56,
+                "endColumn": 55
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 58,
+                "startColumn": 73,
+                "endLine": 58,
+                "endColumn": 75
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 59,
+                "startColumn": 12,
+                "endLine": 59,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 62,
+                "startColumn": 12,
+                "endLine": 62,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 64,
+                "startColumn": 12,
+                "endLine": 64,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 64,
+                "startColumn": 49,
+                "endLine": 64,
+                "endColumn": 51
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 66,
+                "startColumn": 12,
+                "endLine": 66,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 66,
+                "startColumn": 49,
+                "endLine": 66,
+                "endColumn": 51
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 68,
+                "startColumn": 65,
+                "endLine": 68,
+                "endColumn": 67
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 69,
+                "startColumn": 12,
+                "endLine": 69,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 71,
+                "startColumn": 12,
+                "endLine": 71,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 74,
+                "startColumn": 12,
+                "endLine": 74,
+                "endColumn": 14
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.",
+      "fullMessage": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Cognitive Complexity of methods should not be too high",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+        "isEnabledByDefault": "False",
+        "customProperties": {
+          "0": "+1",
+          "1": "+1",
+          "10": "+1",
+          "11": "+1",
+          "12": "+1",
+          "13": "+1",
+          "14": "+1",
+          "15": "+1",
+          "16": "+1",
+          "17": "+1",
+          "18": "+1",
+          "19": "+1",
+          "2": "+1",
+          "20": "+1",
+          "21": "+1",
+          "22": "+1",
+          "23": "+1",
+          "24": "+1",
+          "25": "+1",
+          "26": "+1",
+          "27": "+1",
+          "28": "+1",
+          "29": "+1",
+          "3": "+1",
+          "4": "+1",
+          "5": "+1",
+          "6": "+1",
+          "7": "+1",
+          "8": "+1",
+          "9": "+1"
+        }
+      }
+    },
+    {
+      "ruleId": "S4144",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\HomeController.cs",
+              "region": {
+                "startLine": 136,
+                "startColumn": 28,
+                "endLine": 136,
+                "endColumn": 35
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\HomeController.cs",
+              "region": {
+                "startLine": 122,
+                "startColumn": 28,
+                "endLine": 122,
+                "endColumn": 33
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Update this method so that its implementation is not identical to 'About'.",
+      "fullMessage": "When two methods have the same implementation, either it was a mistake - something else was intended - or the duplication was intentional, but may be confusing to maintainers. In the latter case, one implementation should invoke the other.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Methods should not have identical implementations",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-4144",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S107",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\HomeController.cs",
+              "region": {
+                "startLine": 22,
+                "startColumn": 29,
+                "endLine": 22,
+                "endColumn": 248
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Constructor has 8 parameters, which is greater than the 7 authorized.",
+      "fullMessage": "A long parameter list can indicate that a new structure should be created to wrap the numerous parameters or that the function is doing too many things.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Methods should not have too many parameters",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-107",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S107",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\InmuebleController.cs",
+              "region": {
+                "startLine": 26,
+                "startColumn": 33,
+                "endLine": 26,
+                "endColumn": 281
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Constructor has 9 parameters, which is greater than the 7 authorized.",
+      "fullMessage": "A long parameter list can indicate that a new structure should be created to wrap the numerous parameters or that the function is doing too many things.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Methods should not have too many parameters",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-107",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S1481",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 30,
+                "startColumn": 19,
+                "endLine": 30,
+                "endColumn": 31
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this unused 'NumerosRegex' local variable.",
+      "fullMessage": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Unused local variables should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1481",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 58,
+                "startColumn": 17,
+                "endLine": 58,
+                "endColumn": 33
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this unused 'isApellidoMValid' local variable.",
+      "fullMessage": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Unused local variables should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1854",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\InmuebleController.cs",
+              "region": {
+                "startLine": 190,
+                "startColumn": 21,
+                "endLine": 190,
+                "endColumn": 45
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this useless assignment to local variable 'data'.",
+      "fullMessage": "A dead store happens when a local variable is assigned a value that is not read by any subsequent instruction. Calculating or retrieving a value only to then overwrite it or throw it away, could indicate a serious error in the code. Even if it's not an error, it is at best a waste of resources. Therefore all calculated values should be used.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Dead stores should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1854",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S107",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\Controllers\PublicacionController.cs",
+              "region": {
+                "startLine": 25,
+                "startColumn": 36,
+                "endLine": 25,
+                "endColumn": 279
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Constructor has 9 parameters, which is greater than the 7 authorized.",
+      "fullMessage": "A long parameter list can indicate that a new structure should be created to wrap the numerous parameters or that the function is doing too many things.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Methods should not have too many parameters",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-107",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3776",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 90,
+                "startColumn": 20,
+                "endLine": 90,
+                "endColumn": 26
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 96,
+                "startColumn": 12,
+                "endLine": 96,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 98,
+                "startColumn": 12,
+                "endLine": 98,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 98,
+                "startColumn": 50,
+                "endLine": 98,
+                "endColumn": 52
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 100,
+                "startColumn": 12,
+                "endLine": 100,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 100,
+                "startColumn": 50,
+                "endLine": 100,
+                "endColumn": 52
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 102,
+                "startColumn": 67,
+                "endLine": 102,
+                "endColumn": 69
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 103,
+                "startColumn": 12,
+                "endLine": 103,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 106,
+                "startColumn": 12,
+                "endLine": 106,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 108,
+                "startColumn": 12,
+                "endLine": 108,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 108,
+                "startColumn": 53,
+                "endLine": 108,
+                "endColumn": 55
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 110,
+                "startColumn": 12,
+                "endLine": 110,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 110,
+                "startColumn": 53,
+                "endLine": 110,
+                "endColumn": 55
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 112,
+                "startColumn": 73,
+                "endLine": 112,
+                "endColumn": 75
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 113,
+                "startColumn": 12,
+                "endLine": 113,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 116,
+                "startColumn": 12,
+                "endLine": 116,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 118,
+                "startColumn": 12,
+                "endLine": 118,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 118,
+                "startColumn": 53,
+                "endLine": 118,
+                "endColumn": 55
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 120,
+                "startColumn": 12,
+                "endLine": 120,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 120,
+                "startColumn": 53,
+                "endLine": 120,
+                "endColumn": 55
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 122,
+                "startColumn": 73,
+                "endLine": 122,
+                "endColumn": 75
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 123,
+                "startColumn": 12,
+                "endLine": 123,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 126,
+                "startColumn": 12,
+                "endLine": 126,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 128,
+                "startColumn": 12,
+                "endLine": 128,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 128,
+                "startColumn": 49,
+                "endLine": 128,
+                "endColumn": 51
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 130,
+                "startColumn": 12,
+                "endLine": 130,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 130,
+                "startColumn": 49,
+                "endLine": 130,
+                "endColumn": 51
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 132,
+                "startColumn": 65,
+                "endLine": 132,
+                "endColumn": 67
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 133,
+                "startColumn": 12,
+                "endLine": 133,
+                "endColumn": 14
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+      "fullMessage": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Cognitive Complexity of methods should not be too high",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+        "isEnabledByDefault": "False",
+        "customProperties": {
+          "0": "+1",
+          "1": "+1",
+          "10": "+1",
+          "11": "+1",
+          "12": "+1",
+          "13": "+1",
+          "14": "+1",
+          "15": "+1",
+          "16": "+1",
+          "17": "+1",
+          "18": "+1",
+          "19": "+1",
+          "2": "+1",
+          "20": "+1",
+          "21": "+1",
+          "22": "+1",
+          "23": "+1",
+          "24": "+1",
+          "25": "+1",
+          "26": "+1",
+          "27": "+1",
+          "3": "+1",
+          "4": "+1",
+          "5": "+1",
+          "6": "+1",
+          "7": "+1",
+          "8": "+1",
+          "9": "+1"
+        }
+      }
+    },
+    {
+      "ruleId": "S1481",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionUsuario.cs",
+              "region": {
+                "startLine": 122,
+                "startColumn": 17,
+                "endLine": 122,
+                "endColumn": 33
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this unused 'isApellidoMValid' local variable.",
+      "fullMessage": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Unused local variables should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S3776",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 22,
+                "startColumn": 20,
+                "endLine": 22,
+                "endColumn": 35
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 28,
+                "startColumn": 12,
+                "endLine": 28,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 30,
+                "startColumn": 12,
+                "endLine": 30,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 30,
+                "startColumn": 57,
+                "endLine": 30,
+                "endColumn": 59
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 32,
+                "startColumn": 12,
+                "endLine": 32,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 32,
+                "startColumn": 57,
+                "endLine": 32,
+                "endColumn": 59
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 34,
+                "startColumn": 74,
+                "endLine": 34,
+                "endColumn": 76
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 35,
+                "startColumn": 12,
+                "endLine": 35,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 38,
+                "startColumn": 12,
+                "endLine": 38,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 40,
+                "startColumn": 12,
+                "endLine": 40,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 40,
+                "startColumn": 59,
+                "endLine": 40,
+                "endColumn": 61
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 42,
+                "startColumn": 12,
+                "endLine": 42,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 42,
+                "startColumn": 59,
+                "endLine": 42,
+                "endColumn": 61
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 46,
+                "startColumn": 12,
+                "endLine": 46,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 48,
+                "startColumn": 12,
+                "endLine": 48,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 48,
+                "startColumn": 60,
+                "endLine": 48,
+                "endColumn": 62
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 50,
+                "startColumn": 12,
+                "endLine": 50,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 50,
+                "startColumn": 60,
+                "endLine": 50,
+                "endColumn": 62
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 54,
+                "startColumn": 12,
+                "endLine": 54,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 56,
+                "startColumn": 12,
+                "endLine": 56,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 56,
+                "startColumn": 58,
+                "endLine": 56,
+                "endColumn": 60
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 58,
+                "startColumn": 12,
+                "endLine": 58,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 58,
+                "startColumn": 58,
+                "endLine": 58,
+                "endColumn": 60
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 60,
+                "startColumn": 77,
+                "endLine": 60,
+                "endColumn": 79
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 61,
+                "startColumn": 12,
+                "endLine": 61,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 64,
+                "startColumn": 12,
+                "endLine": 64,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 65,
+                "startColumn": 16,
+                "endLine": 65,
+                "endColumn": 18
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 68,
+                "startColumn": 16,
+                "endLine": 68,
+                "endColumn": 18
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 73,
+                "startColumn": 12,
+                "endLine": 73,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 75,
+                "startColumn": 12,
+                "endLine": 75,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 78,
+                "startColumn": 12,
+                "endLine": 78,
+                "endColumn": 14
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.",
+      "fullMessage": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Cognitive Complexity of methods should not be too high",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+        "isEnabledByDefault": "False",
+        "customProperties": {
+          "0": "+1",
+          "1": "+1",
+          "10": "+1",
+          "11": "+1",
+          "12": "+1",
+          "13": "+1",
+          "14": "+1",
+          "15": "+1",
+          "16": "+1",
+          "17": "+1",
+          "18": "+1",
+          "19": "+1",
+          "2": "+1",
+          "20": "+1",
+          "21": "+1",
+          "22": "+1",
+          "23": "+1",
+          "24": "+1",
+          "25": "+2 (incl 1 for nesting)",
+          "26": "+2 (incl 1 for nesting)",
+          "27": "+1",
+          "28": "+1",
+          "29": "+1",
+          "3": "+1",
+          "4": "+1",
+          "5": "+1",
+          "6": "+1",
+          "7": "+1",
+          "8": "+1",
+          "9": "+1"
+        }
+      }
+    },
+    {
+      "ruleId": "S3010",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\CloudinaryService.cs",
+              "region": {
+                "startLine": 23,
+                "startColumn": 12,
+                "endLine": 23,
+                "endColumn": 24
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\CloudinaryService.cs",
+              "region": {
+                "startLine": 15,
+                "startColumn": 33,
+                "endLine": 15,
+                "endColumn": 43
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this assignment of 'cloudinary' or initialize it statically.",
+      "fullMessage": "Assigning a value to a static field in a constructor could cause unreliable behavior at runtime since it will change the value for all instances of the class.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Static fields should not be updated in constructors",
+        "category": "Sonar Bug",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3010",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1854",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\UsuarioService.cs",
+              "region": {
+                "startLine": 108,
+                "startColumn": 18,
+                "endLine": 108,
+                "endColumn": 39
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this useless assignment to local variable 'users'.",
+      "fullMessage": "A dead store happens when a local variable is assigned a value that is not read by any subsequent instruction. Calculating or retrieving a value only to then overwrite it or throw it away, could indicate a serious error in the code. Even if it's not an error, it is at best a waste of resources. Therefore all calculated values should be used.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Dead stores should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1854",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1116",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\AuthService.cs",
+              "region": {
+                "startLine": 36,
+                "startColumn": 13,
+                "endLine": 36,
+                "endColumn": 14
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this empty statement.",
+      "fullMessage": "Empty statements, i.e. ;, are usually introduced by mistake, for example because:",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Hidden",
+        "title": "Empty statements should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1116",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S1481",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\validaciones\ValidacionInmueble.cs",
+              "region": {
+                "startLine": 27,
+                "startColumn": 19,
+                "endLine": 27,
+                "endColumn": 29
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this unused 'EmailRegex' local variable.",
+      "fullMessage": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Unused local variables should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S3776",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 33,
+                "startColumn": 37,
+                "endLine": 33,
+                "endColumn": 51
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 36,
+                "startColumn": 12,
+                "endLine": 36,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 36,
+                "startColumn": 26,
+                "endLine": 36,
+                "endColumn": 28
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 39,
+                "startColumn": 12,
+                "endLine": 39,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 39,
+                "startColumn": 28,
+                "endLine": 39,
+                "endColumn": 30
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 40,
+                "startColumn": 81,
+                "endLine": 40,
+                "endColumn": 83
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 42,
+                "startColumn": 12,
+                "endLine": 42,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 42,
+                "startColumn": 28,
+                "endLine": 42,
+                "endColumn": 30
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 44,
+                "startColumn": 16,
+                "endLine": 44,
+                "endColumn": 18
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 45,
+                "startColumn": 73,
+                "endLine": 45,
+                "endColumn": 75
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 46,
+                "startColumn": 18,
+                "endLine": 46,
+                "endColumn": 22
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 47,
+                "startColumn": 73,
+                "endLine": 47,
+                "endColumn": 75
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 51,
+                "startColumn": 12,
+                "endLine": 51,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 51,
+                "startColumn": 28,
+                "endLine": 51,
+                "endColumn": 30
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 55,
+                "startColumn": 12,
+                "endLine": 55,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 55,
+                "startColumn": 28,
+                "endLine": 55,
+                "endColumn": 30
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 57,
+                "startColumn": 16,
+                "endLine": 57,
+                "endColumn": 18
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 59,
+                "startColumn": 84,
+                "endLine": 59,
+                "endColumn": 86
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 61,
+                "startColumn": 16,
+                "endLine": 61,
+                "endColumn": 20
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 63,
+                "startColumn": 85,
+                "endLine": 63,
+                "endColumn": 87
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 66,
+                "startColumn": 12,
+                "endLine": 66,
+                "endColumn": 14
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 66,
+                "startColumn": 28,
+                "endLine": 66,
+                "endColumn": 30
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 68,
+                "startColumn": 16,
+                "endLine": 68,
+                "endColumn": 18
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 72,
+                "startColumn": 16,
+                "endLine": 72,
+                "endColumn": 20
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Refactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.",
+      "fullMessage": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Cognitive Complexity of methods should not be too high",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+        "isEnabledByDefault": "False",
+        "customProperties": {
+          "0": "+1",
+          "1": "+1",
+          "10": "+1",
+          "11": "+1",
+          "12": "+1",
+          "13": "+1",
+          "14": "+1",
+          "15": "+2 (incl 1 for nesting)",
+          "16": "+1",
+          "17": "+1",
+          "18": "+1",
+          "19": "+1",
+          "2": "+1",
+          "20": "+1",
+          "21": "+2 (incl 1 for nesting)",
+          "22": "+1",
+          "3": "+1",
+          "4": "+1",
+          "5": "+1",
+          "6": "+1",
+          "7": "+2 (incl 1 for nesting)",
+          "8": "+1",
+          "9": "+1"
+        }
+      }
+    },
+    {
+      "ruleId": "S2971",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 110,
+                "startColumn": 33,
+                "endLine": 110,
+                "endColumn": 39
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Drop 'ToList' from the middle of the call chain.",
+      "fullMessage": "In the interests of readability, code that can be simplified should be simplified. To that end, there are several ways IEnumerable LINQs can be simplified",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": ""IEnumerable" LINQs should be simplified",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-2971",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1764",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 40,
+                "startColumn": 84,
+                "endLine": 40,
+                "endColumn": 115
+              }
+            }
+          ]
+        },
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 40,
+                "startColumn": 48,
+                "endLine": 40,
+                "endColumn": 80
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Correct one of the identical expressions on both sides of operator '&&'.",
+      "fullMessage": "Using the same value on either side of a binary operator is almost always a mistake. In the case of logical operators, it is either a copy/paste error and therefore a bug, or it is simply wasted code, and should be simplified. In the case of bitwise operators and most binary mathematical operators, having the same value on both sides of an operator yields predictable results, and should be simplified.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Identical expressions should not be used on both sides of a binary operator",
+        "category": "Sonar Bug",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1764",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1481",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "D:\calidad\HousesPeru\HousesPeru\services\InmuebleService.cs",
+              "region": {
+                "startLine": 35,
+                "startColumn": 16,
+                "endLine": 35,
+                "endColumn": 25
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this unused 'inmuebles' local variable.",
+      "fullMessage": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Unused local variables should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+        "isEnabledByDefault": "True"
+      }
+    }
+  ]
+}

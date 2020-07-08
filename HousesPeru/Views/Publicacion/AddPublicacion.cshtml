@@ -1,0 +1,234 @@
+﻿
+@{
+    ViewBag.Title = "AddPublicacion";
+    if (ViewBag.UserLogged == "ADMINISTRADOR") {
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }if (ViewBag.UserLogged == "AGENTE")    {
+        Layout = "~/Views/Shared/_LayoutAgente.cshtml";
+    }if (ViewBag.UserLogged == "USUARIO") {
+        Layout = "~/Views/Shared/_LayoutUsuario.cshtml";
+    }if(ViewBag.UserLogged == null){
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+}
+ <h1 id="ViewAddPublicacion"></h1>
+<div class="ed_editInmView">
+    <div></div>
+    <div class="container-fluid mb-5">
+
+        <div class="row" style="margin-top: -10px;">
+
+            <!--Grid column-->
+            <div class="col-md-12" style="opacity:0.9">
+
+                <div class="card pb-5">
+                    <div class="card-body">
+
+                        <div class="container">
+                            <section class="section">
+                                <h2 class="font-weight-bold text-center ">Agregar Inmueble</h2>
+                                <div class="row pt-5">
+                                    <div class="col-md-12 col-xl-12">
+                                        <form action="/Publicacion/AddPublicacion" method="post" enctype="multipart/form-data">
+                                            <div class="row" style="font-family: Bahnschrift;">
+                                                <div class="col-md-4" >
+                                                    <div class="md-form" style="color:red">
+
+                                                        <input id="NombreInm" name="NombreInm" type="text" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label for="NombreInm" class="font-weight-bold">Nombre</label>
+                                                        @Html.ValidationMessage("Nombre")
+                                                    </div>
+                                                    <div class="md-form"  >
+                                                        <h6 for="contact-name" class="font-weight-bold" >Ciudad</h6>
+                                                        <div style="color:red">  @Html.ValidationMessage("Ciudad")</div>
+                                                       
+                                                        <select class="combobox form-control" name="IdCiudades">
+                                                            <option value="0" id="0" selected="selected">Ciudades</option>
+
+                                                            @foreach (var ciudad in ViewBag.Ciudades)
+                                                            {
+                                                                <option value="@ciudad.CiudadesId" id="@ciudad.Nombre">@ciudad.Nombre</option>
+                                                            }
+
+                                                        </select>
+
+                                                    </div>
+                                                    <div class="md-form"  style="color:red">
+
+                                                        <input id="UbicacionInm" name="UbicacionInm" type="text" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label for="UbicacionInm" class="font-weight-bold">Dirección</label>
+                                                        @Html.ValidationMessage("UbicacionInm")
+                                                    </div>
+                                                    <div class="md-form"  style="color:red">
+
+                                                        <textarea id="Descripcion" name="Descripcion" type="text" ¨placeholder="" class="form-control validate blue-grey-text col-md-12 "></textarea>
+                                                        <label for="Descripcion" style=" margin-top: -0.5em " class="font-weight-bold">Descripción</label>
+                                                        @Html.ValidationMessage("Descripcion")
+                                                    </div>
+                                                    <div class="md-form"  style="color:red">
+
+
+                                                        <input id="Area" name="Area" type="number" ¨placeholder="" min="0" pattern="^[0-9]+" class="form-control validate black-text col-md-12 ">
+                                                        <label class="font-weight-bold" data-error="wrong" data-success="right" for="Area">Area : en m²</label>
+                                                        @Html.ValidationMessage("Area")
+                                                    </div>
+                                                    <div class="md-form"  style="color:red">
+
+                                                        <input id="NumCelular" name="NumCelular" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label class="font-weight-bold" data-error="wrong" data-success="right" for="NumCelular">Telefono Para Contacto:</label>
+                                                        @Html.ValidationMessage("Telefono")
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div style="color:red">
+                                                        @Html.ValidationMessage("InmuebleTipo")
+
+                                                    </div>
+                                                   
+                                                    <div class="md-form"  >
+                                                        <h6 for="IdInmuebleTip" class="font-weight-bold"  >Tipo de Inmueble</h6>
+                                                        <select class="combobox form-control" name="IdInmuebleTip" id="IdInmuebleTip">
+                                                          
+                                                            <option value="0" id="0" selected="selected">Tipo de Inmueble</option>
+
+                                                            @foreach (var tipinm in ViewBag.InmuebleTipo)
+                                                            {
+                                                                <option value="@tipinm.InmuebleTipoId" id="@tipinm.Nombre">@tipinm.Nombre</option>
+                                                            }
+                                                        </select>
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input hidden id="Pisos" name="Pisos" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label hidden id="LabPisos" class="font-weight-bold" data-error="wrong" data-success="right" for="Pisos">Pisos </label>
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input hidden id="Piso" name="Piso" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label hidden id="LabPiso" class="font-weight-bold" data-error="wrong" data-success="right" for="Piso">Piso </label>
+
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input hidden id="NumHabitaciones" name="NumHabitaciones" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label hidden id="LabNumHabitaciones" class="font-weight-bold" data-error="wrong" data-success="right" for="NumHabitaciones">Habitaciones</label>
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input hidden id="Baños" name="Baños" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label hidden id="LabBaños" class="font-weight-bold" data-error="wrong" data-success="right" for="Baños">Baños</label>
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input hidden id="Garages" name="Garages" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label hidden id="LabGarages" class="font-weight-bold" data-error="wrong" data-success="right" for="Garages">Garages</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="md-form" >
+                                                        <div style="color:red">
+                                                            @Html.ValidationMessage("Moneda")
+                                                        </div>
+                                                       
+                                                        <h6 class="font-weight-bold" style="color:black">Moneda</h6>
+                                                        <select class="combobox form-control" name="Moneda" id="Moneda">
+                                                            <option value="0" selected="selected">Selecciona Tipo Moneda</option>
+
+                                                            <option value="Soles" id="Soles">Soles</option>
+                                                            <option value="Dolares" id="Dolares">Dolares</option>
+
+                                                        </select>
+                                                    </div>
+                                                    <h7 class="font-weight-bold" style="color:black"> Estado </h7>
+                                                    <div class="md-textarea">
+                                                        <div class=" ">
+                                                            <div class="form-check">
+                                                                <input type="checkbox" class="checkbox" id="AlquilerID">
+                                                                <label for="AlquilerID" style="color:royalblue"> Alquiler</label>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="md-textarea">
+                                                        <div class=" ">
+                                                            <div class="form-check">
+                                                                <input type="checkbox" class="checkbox" id="VentaID">
+                                                                <label for="VentaID" style="color:royalblue"> Venta </label>
+
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="md-form">
+                                                        <input hidden id="PrecioAlquilerInm" name="PrecioAlquilerInm" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12 ">
+                                                        <label for="PrecioAlquilerInm" hidden id="LabPrecioAlquilerInm"   data-error="wrong" data-success="right" >Precio Alquiler</label>
+                                                         
+                                                    </div>
+                                                    <div class="md-form">
+
+                                                        <input hidden id="PrecioVentaInm" name="PrecioVentaInm" type="number" min="0" pattern="^[0-9]+" ¨placeholder="" class="form-control validate black-text col-md-12">
+                                                        <label  for="PrecioVentaInm" hidden id="LabPrecioVentaInm"   data-error="wrong" data-success="right">Precio Venta</label>
+
+                                                    </div>
+                                                    <h7 class="font-weight-bold" style="color:black"> Agregar Imagenes </h7>
+                                                    <div class="er_scroll_img">
+                                                        @{var i = 1; }
+                                              
+                                                        @for (int j = i; j < 21; j++)
+                                                        {
+                                                            var dato = "img" + j;
+                                                            var datodel = dato + "Del";
+                                                            var input = "Imagen";
+                                                            <div class="BotonUpload">
+                                                                <div>
+                                                                    <label for="@dato" class="er_scroll_botAdd"><i class="fas fa-angle-double-up"></i></label>
+                                                                    <label for="" id="@datodel" class="er_scroll_botDel"><i class="far fa-trash-alt"></i></label>
+                                                                    <input id="@dato" name="@input" type="file" />
+                                                                    <row id="file-preview-@dato">
+
+
+
+                                                                    </row>
+
+                                                                </div>
+                                                            </div>
+                                                        }
+
+
+
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="md-form">
+                                                    <div class="text-center text-md-left my-4">
+                                                        <button type="submit" class="btn peach-gradient">Guardar</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </form>
+
+                                    </div>
+
+                                </div>
+                            </section>
+                            <!--Section: Contact v.2-->
+                        </div>
+                    </div>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+    </div>
+
+</div>
+

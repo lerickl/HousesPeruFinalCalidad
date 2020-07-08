@@ -1,0 +1,122 @@
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\nunit.engine.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\nunit.engine.api.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Tests.exe.config
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Tests.exe
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Tests.pdb
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Castle.Core.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\EntityFramework.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\HousesPeru.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Moq.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\nunit.framework.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\WebActivatorEx.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Unity.Abstractions.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Unity.Container.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\CloudinaryDotNet.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Unity.Mvc.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\WebGrease.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\HousesPeru.pdb
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Castle.Core.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\EntityFramework.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Moq.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\nunit.framework.pdb
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\nunit.framework.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Unity.Abstractions.pdb
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Unity.Container.pdb
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\CloudinaryDotNet.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Unity.Mvc.pdb
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Unity.Mvc.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\obj\Debug\Tests.exe
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\obj\Debug\Tests.pdb
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\WebDriver.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\WebDriver.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\WebDriver.Support.dll
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\bin\Debug\WebDriver.Support.xml
+C:\Users\ACER - PC\Desktop\HousesPeru\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+D:\calidad\HousesPeru\Tests\bin\Debug\NUnit3.TestAdapter.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\NUnit3.TestAdapter.pdb
+D:\calidad\HousesPeru\Tests\bin\Debug\nunit.engine.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\nunit.engine.api.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\Tests.exe.config
+D:\calidad\HousesPeru\Tests\bin\Debug\Tests.exe
+D:\calidad\HousesPeru\Tests\bin\Debug\Tests.pdb
+D:\calidad\HousesPeru\Tests\bin\Debug\Castle.Core.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\EntityFramework.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\HousesPeru.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\Moq.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\nunit.framework.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.Helpers.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.Mvc.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.Razor.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.WebPages.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\WebDriver.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\WebDriver.Support.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\WebActivatorEx.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.Optimization.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\Unity.Abstractions.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\Unity.Container.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\CloudinaryDotNet.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\Unity.Mvc.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\WebGrease.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\Newtonsoft.Json.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Text.Encodings.Web.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\Antlr3.Runtime.dll
+D:\calidad\HousesPeru\Tests\bin\Debug\HousesPeru.pdb
+D:\calidad\HousesPeru\Tests\bin\Debug\Castle.Core.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\EntityFramework.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\Moq.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\nunit.framework.pdb
+D:\calidad\HousesPeru\Tests\bin\Debug\nunit.framework.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.Helpers.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.Mvc.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.Razor.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.WebPages.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\WebDriver.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\WebDriver.Support.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\System.Web.Optimization.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\Unity.Abstractions.pdb
+D:\calidad\HousesPeru\Tests\bin\Debug\Unity.Container.pdb
+D:\calidad\HousesPeru\Tests\bin\Debug\CloudinaryDotNet.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\Unity.Mvc.pdb
+D:\calidad\HousesPeru\Tests\bin\Debug\Unity.Mvc.xml
+D:\calidad\HousesPeru\Tests\bin\Debug\Antlr3.Runtime.pdb
+D:\calidad\HousesPeru\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+D:\calidad\HousesPeru\Tests\obj\Debug\Tests.exe
+D:\calidad\HousesPeru\Tests\obj\Debug\Tests.pdb

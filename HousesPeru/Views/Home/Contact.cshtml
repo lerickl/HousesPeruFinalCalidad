@@ -1,0 +1,169 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    if (ViewBag.UserLogged == "ADMINISTRADOR") {
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }if (ViewBag.UserLogged == "AGENTE") {
+        Layout = "~/Views/Shared/_LayoutAgente.cshtml";
+    }if (ViewBag.UserLogged == "USUARIO"){
+        Layout = "~/Views/Shared/_LayoutUsuario.cshtml";
+    }if(ViewBag.UserLogged == null){ 
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+}
+ 
+@*<h2>@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>*@
+<h1 id="ViewContact"></h1>
+<div class="er_ContPublicacion"></div>
+<div class="er_cont_bannerContacto">
+    <section>
+        <div id="map-container-demo-section" class="z-depth-1-half map-container-section mb-4" style="height: 500px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d989.6835906929667!2d-78.51719447085752!3d-7.156679799677027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25af91394ee1d%3A0x1057e25969cb558c!2sDos%20de%20Mayo%20569%2C%20Cajamarca%2006002!5e0!3m2!1ses-419!2spe!4v1584309523346!5m2!1ses-419!2spe" frameborder="0" style="border:0"></iframe>
+
+        </div>
+    </section>
+    <main>
+
+        <div class="container-fluid mb-5">
+
+            <!--Grid row-->
+            <div class="row" style="margin-top: -10px;">
+
+                <!--Grid column-->
+                <div class="col-md-12" style="opacity:0.9">
+
+                    <div class="card pb-5">
+                        <div class="card-body" >
+
+                            <div class="container">
+
+                                <!--Section: Contact v.2-->
+                                <section class="section">
+
+                                    <!--Section heading-->
+                                    <h2 class="font-weight-bold text-center h1 my-5">Contacto</h2>
+                                    <!--Section description-->
+                                    <p class="text-center grey-text mb-5 mx-auto w-responsive">
+
+                                    </p>
+
+                                    <div class="row pt-5">
+
+                                        <!--Grid column-->
+                                        <div class="col-md-8 col-xl-9">
+                                            <form>
+
+                                                <!--Grid row-->
+                                                <div class="row">
+
+                                                    <!--Grid column-->
+                                                    <div class="col-md-6">
+                                                        <div class="md-form">
+                                                            <input type="text" id="contact-name" class="form-control">
+                                                            <label for="contact-name" class="">Su nombre</label>
+                                                        </div>
+                                                    </div>
+                                                    <!--Grid column-->
+                                                    <!--Grid column-->
+                                                    <div class="col-md-6">
+                                                        <div class="md-form">
+                                                            <input type="text" id="contact-email" class="form-control">
+                                                            <label for="contact-email" class="">Su email</label>
+                                                        </div>
+                                                    </div>
+                                                    <!--Grid column-->
+
+                                                </div>
+                                                <!--Grid row-->
+                                                <!--Grid row-->
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="md-form">
+                                                            <input type="text" id="contact-Subject" class="form-control">
+                                                            <label for="contact-Subject" class="">Asunto</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--Grid row-->
+                                                <!--Grid row-->
+                                                <div class="row">
+
+                                                    <!--Grid column-->
+                                                    <div class="col-md-12">
+
+                                                        <div class="md-form">
+                                                            <textarea type="text" id="contact-message" class="md-textarea form-control" rows="3"></textarea>
+                                                            <label for="contact-message">Su mensaje</label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!--Grid row-->
+
+                                            </form>
+
+                                            <div class="text-center text-md-left my-4">
+                                                <a class="btn peach-gradient">Enviar</a>
+                                            </div>
+                                        </div>
+                                        <!--Grid column-->
+                                        <!--Grid column-->
+                                        <div class="col-md-4 col-xl-3">
+                                            <ul class="contact-icons text-center list-unstyled">
+                                                <li>
+                                                    <i class="fas fa-map-marker fa-2x orange-text"></i>
+                                                    <p>Jr. dos de Mayo 569 of. 3. Cajamarca.</p>
+                                                </li>
+
+                                                <li>
+                                                    <i class="fas fa-phone fa-2x orange-text"></i>
+                                                    <p>Tf: 076 - 268675.</p>
+                                                    <p>Cel: 959 464 567.</p>
+                                                    <p>Cel: 976 505 738.</p>
+                                                </li>
+
+                                                <li>
+                                                    <i class="fas fa-envelope fa-2x orange-text"></i>
+                                                    <p>destinosviveperu@gmail.com</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--Grid column-->
+
+                                    </div>
+
+                                </section>
+                                <!--Section: Contact v.2-->
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+<style>
+    .map-container-section {
+        overflow: hidden;
+        /* padding-bottom:56.25%; */
+        position: relative;
+        height: 0;
+    }
+
+        .map-container-section iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+</style>

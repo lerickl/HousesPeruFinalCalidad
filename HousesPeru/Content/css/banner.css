@@ -1,0 +1,1210 @@
+.er_Cont_Inmuebles {
+    font-family: Bahnschrift;
+    height: 1450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(238, 245,234, 0.95);
+    background-image: url('../images/carousel5.jpg');
+    /*background-image: url('../images/casa3.jpg');*/
+}
+
+.er_sombra_Inmuebles {
+    position: absolute;
+    left: 50%;
+    top: 47em;
+    border-radius: 20px;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    width: 96%;
+    /*height: 100%;*/
+    text-align: center;
+    background-color: rgba(205,208,203,0.5);
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .er_sombra_Inmuebles p {
+        font-weight: bold;
+    }
+
+    .er_sombra_Inmuebles img {
+        max-height: 100%;
+        height: 500px;
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
+        border: rgba(238, 245,234, 0.95) 5px solid;
+    }
+
+.er_sombra_Inmueblestituloinm {
+    background-color: rgba(238, 245,234, 0.8);
+    border-radius: 10px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+
+    .er_sombra_Inmueblestituloinm hr {
+        border-top: 1px solid #fff;
+        box-shadow: 2px 2px 5px #999;
+    }
+
+.er_sombra_Inmuebles hr {
+    border-top: 1px solid #fff;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.er_sombra_Inmuebles h1 {
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+.er_sombra_Inmuebles p {
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+
+.er_sombra_Inmueble_container {
+    /*margin: 15px;
+    position: ;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+   
+    /*color: dodgerblue;*/
+    margin: auto;
+    /*top:25em;*/
+    /*background-color: rgba(255, 255,255, 0.8);*/
+}
+
+.er_sombra_Inmuble_ContainerShareInstagram {
+}
+
+    .er_sombra_Inmuble_ContainerShareInstagram a {
+        background: #f09433;
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+        color: white;
+        position: center;
+        padding: 4px;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 50px;
+        text-transform: uppercase;
+        float: right;
+    }
+
+        .er_sombra_Inmuble_ContainerShareInstagram a:hover {
+            background-color: rgba(68,209,247,0.7);
+            color: white;
+        }
+
+.er_sombra_Inmueble_containerShare {
+}
+
+    .er_sombra_Inmueble_containerShare a {
+        background-color: #3b5998;
+        color: white;
+        position: center;
+        padding: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 50px;
+        text-transform: uppercase;
+        float: right;
+    }
+
+        .er_sombra_Inmueble_containerShare a:hover {
+            background-color: white;
+            color: #3b5998;
+        }
+
+.er_sombra_Inmueble_containerSharewsp a {
+    background-color: #25D366;
+    color: white;
+    position: center;
+    padding: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50px;
+    text-transform: uppercase;
+    float: right;
+    /*margin: 15px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid dodgerblue;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+    box-shadow: 10px 10px 5px -4px rgba(130,224,182,1);*/
+}
+
+    .er_sombra_Inmueble_containerSharewsp a:hover {
+        background-color: white;
+        color: #25D366;
+    }
+
+.er_sombra_Inmueble_containerPhone a {
+    background-color: rgba(68,209,247,0.7);
+    color: white;
+    margin: 15px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid dodgerblue;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    box-shadow: 10px 10px 5px -4px rgba(255,255,255,0.8);
+    text-align: center;
+}
+
+    .er_sombra_Inmueble_containerPhone a:hover {
+        background-color: rgba(255,255,255,0.5);
+        box-shadow: 10px 10px 5px -4px rgba(76,230,243,0.8);
+        color: black;
+    }
+
+.er_sombra_Inmueble_container i {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.65);
+    background-color: rgba(0,0,0,0.4);
+}
+
+    .er_sombra_Inmueble_container i:hover {
+        background-color: rgba(255,255,255,0.5);
+        color: rgba(0,0,0,0.65);
+    }
+
+.er_cont_banner {
+    height: 570px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/fondo1.jpg");
+}
+
+.er_cont_addpublicacion {
+    height: 330vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/fondo1.jpg");
+    opacity: 0.8;
+}
+
+.er_card_normal {
+    background-color: rgba(205,208,203,0.5);
+    color: azure;
+    opacity: 0.9;
+}
+
+.er_card_premium {
+    background-color: rgba(205,208,203,0.5);
+    color: azure;
+    opacity: 0.9;
+}
+
+.er_card_gold {
+    background-color: rgba(205,208,203,0.5);
+    color: azure;
+    opacity: 0.9;
+}
+
+.er_contPlanes {
+    height: 10vh;
+    background-position: center;
+}
+
+.er_contPlan {
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/fondo1.jpg");
+}
+
+.er_cont_P {
+    top: 35%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+}
+
+    .er_cont_P hr {
+        border-top: 1px solid #fff;
+        box-shadow: 2px 2px 5px #999;
+    }
+
+.er_sombra_card {
+    background-color: rgba(255,255,255,0.9);
+    color: black;
+    border-radius: 10px;
+}
+
+.er_cont_carrousel_buscar {
+    height: 135vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/x2.jpg");
+}
+
+.er_sombra {
+    position: absolute;
+    left: 50%;
+    top: 880px;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin: auto;
+    min-height: 400px;
+}
+
+.er_row_cont_buscar {
+    margin-top: 60px;
+    grid-area: c;
+    align-self: end;
+}
+
+.er_sombra_buscar {
+    position: absolute;
+    left: 50%;
+    top: 700px;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin: auto;
+    min-height: 350px;
+}
+
+.er_piePag_Sombre {
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin: auto;
+}
+
+.er_sombra hr {
+    border-top: 1px solid #fff;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.er_sombra h1 {
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+.er_sombra p {
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+
+.er_cont_banner_link {
+    margin: 15px;
+    position: relative;
+}
+
+    .er_cont_banner_link i {
+        position: relative;
+        display: inline-block;
+        color: forestgreen;
+        text-decoration: none;
+        border: 1px solid forestgreen;
+        padding: 1px;
+        margin-bottom: 5px;
+        width: 150px;
+    }
+
+    .er_cont_banner_link a {
+        position: relative;
+        display: inline-block;
+        color: forestgreen;
+        text-decoration: none;
+        border: 1px solid forestgreen;
+        padding: 1px;
+        margin-bottom: 5px;
+        width: 150px;
+    }
+
+        .er_cont_banner_link a:hover {
+            background-color: #fff;
+            color: #111;
+        }
+
+
+    .er_cont_banner_link i:hover {
+        background-color: #fff;
+        color: #111;
+    }
+
+.er_cont_banner_sombra {
+    margin: 15px;
+    position: relative;
+}
+
+    .er_cont_banner_sombra i {
+        position: relative;
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 1px;
+        margin-bottom: 5px;
+        width: 150px;
+    }
+
+    .er_cont_banner_sombra a {
+        position: relative;
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 1px;
+        margin-bottom: 5px;
+        width: 150px;
+    }
+
+        .er_cont_banner_sombra a:hover {
+            background-color: #fff;
+            color: #111;
+        }
+
+    .er_cont_banner_sombra i:hover {
+        background-color: #fff;
+        color: #111;
+    }
+
+.er_banner_link {
+    opacity: 0;
+    animation: er_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: er_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.er_banner_link_1 {
+    opacity: 0;
+    animation: er_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: er_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.er_banner_link_2 {
+    opacity: 0;
+    animation: er_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: er_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.er_cont_banner_sec_3 {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/arq2.jpg");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+    .er_cont_banner_sec_3 .row {
+        background-color: rgba(1, 1, 1, 0.7);
+        color: #fff;
+        padding: 2%;
+    }
+
+.er_cont_img {
+    padding: 5%;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #808080;
+}
+
+.er_ContPublicacion {
+    height: 10vh;
+    background-position: center;
+    background-color: dimgrey;
+}
+
+.er_contEspPubl {
+    background-position: center;
+    background-color: dimgrey;
+}
+
+.er_Cent_Form {
+    top: 10%;
+    border-radius: 30px;
+    border: 1px solid #666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.xtrafondos.com/wallpapers/adn-1279.jpg");
+    color: white;
+    /*width: 500px;*/
+}
+
+.er_Cent_FormRegistro {
+    top: 10%;
+    border-radius: 30px;
+    border: 1px solid #666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /*width: 500px;*/
+}
+
+.er_cont_formRegister {
+    /*left: 10%;
+    right: 10%;*/
+    position: absolute;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    max-height: 1500px;
+    max-width: 100%;
+    background-image: url('https://webgenio.com/wp-content/uploads/2018/10/fondos-pantalla-iphone-burbuja2.png');
+}
+
+.er_cont_bannerContacto {
+    height: 250vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/fondo1.jpg");
+    font-family: Bahnschrift;
+}
+
+
+
+
+input[type=checkbox] + label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+    input[type=checkbox] + label:before {
+        content: "\2714";
+        border: 0.1em solid #0094ff;
+        border-radius: 0.2em;
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        padding-left: 0.2em;
+        padding-bottom: 0.3em;
+        padding-right: 0.2em;
+        /* 
+  margin-right: 0.2em;*/
+        vertical-align: bottom;
+        color: transparent;
+        transition: .2s;
+    }
+
+    input[type=checkbox] + label:active:before {
+        transform: scale(0);
+    }
+
+    input[type=checkbox]:checked + label:before {
+        background-color: lightblue;
+        border-color: #0094ff;
+        color: #0094ff;
+    }
+
+    input[type=checkbox]:disabled + label:before {
+        transform: scale(1);
+        border-color: #aaa;
+    }
+
+    input[type=checkbox]:checked:disabled + label:before {
+        transform: scale(1);
+        background-color: #bfb;
+        border-color: #bfb;
+    }
+
+
+
+.er_cont_banner_botones {
+    margin: 15px;
+    position: relative;
+}
+
+    .er_cont_banner_botones a {
+        position: relative;
+        display: inline-block;
+        color: #666666;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 1px;
+        margin-bottom: 5px;
+        width: 150px;
+    }
+
+        .er_cont_banner_botones a:hover {
+            background-color: fuchsia);
+            color: #000000;
+        }
+
+
+
+
+
+
+.er_cardimg img img {
+    display: block;
+    position: relative;
+    width: 300px;
+    /*height:200px;*/
+}
+
+.er_cardimg div {
+    position: relative;
+    top: -44px;
+    color: white;
+    background-color: #000;
+    padding: 2px 10px;
+    opacity: 0.5;
+    font-weight: bold;
+    min-height: 200px;
+}
+
+.er_cardimg p {
+    position: relative;
+    top: -150px;
+    color: white;
+    background-color: #000;
+    padding: 2px;
+    opacity: 0.5;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.er_cardimg a {
+}
+
+    .er_cardimg a:hover {
+        background-color: #fff;
+        color: #111;
+    }
+/*Seccion nueva plan*/
+.er_sombra_plans_new {
+    font-family: Bahnschrift;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 20em;
+    border-radius: 20px;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    width: 96%;
+    /*height: 100%;*/
+    text-align: center;
+    background-color: rgba(205,208,203,0.5);
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.er_sombra_plan {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(238, 245,234, 0.8);
+    color: black;
+    margin: auto;
+    border-radius: 20px;
+}
+
+    .er_sombra_plan hr {
+        border-top: 1px solid #fff;
+        box-shadow: 2px 2px 5px #999;
+    }
+
+
+
+
+
+
+
+
+
+/*Seccion perfil usuario*/
+.er_cont_User {
+    background-image: url('../images/fondo1.jpg');
+    height: 680px;
+    font-family: Bahnschrift;
+}
+
+.er_sombra_User {
+    background-color: rgba(205,208,203,0.9);
+    top: 22em;
+    position: absolute;
+    text-align: center;
+    width: 96%;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 10px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+}
+
+    .er_sombra_User hr {
+        border-top: 1px solid #fff;
+        box-shadow: 2px 2px 5px #999;
+    }
+
+.er_card_imgPerfil div {
+    /*position: relative;
+    top: -44px;
+    color: white;
+    background-color: #000;
+    padding: 2px 10px;
+    opacity: 0.5;
+    font-weight: bold;
+    min-height: 200px;*/
+}
+
+.er_card_imgPerfil img {
+    display: block;
+    position: relative;
+    width: 340px;
+    border-radius: 10px;
+    background-color: #000;
+    padding: 2px 10px;
+}
+
+.er_card_imgPerfil input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.er_card_imgPerfil_inm img {
+    display: block;
+    position: relative;
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #000;
+    padding: 2px 10px;
+}
+
+
+/*seccion corrousel Layout*/
+.er_cont_carrousel_layout {
+}
+
+    .er_cont_carrousel_layout img {
+        height: 230px;
+        width: 295px;
+        border-radius: 5px;
+    }
+/*Seccion de index*/
+.er_cont_index {
+    font-family: Bahnschrift;
+    height: 1500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(238, 245,234, 0.95);
+    background-image: url('../images/fondo1.jpg');
+}
+
+.er_sombra_Index {
+    position: absolute;
+    left: 50%;
+    top: 49em;
+    border-radius: 20px;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    width: 96%;
+    /*height: 100%;*/
+    text-align: center;
+    background-color: rgba(205,208,203,0.5);
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .er_sombra_Index img {
+        text-align: center;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        height: 550px;
+    }
+
+.er_sombra_index_cont {
+    background-color: rgba(238, 245,234, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    position: center;
+    /*height:90%;*/
+}
+
+.er_cont_carrousel {
+    /*height: 400px;*/
+    /*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    border-radius: 10px;
+    /*height: 400px;
+    border-radius: 10px;
+    padding: 10px;*/
+}
+
+    .er_cont_carrousel img {
+        max-height: 100%;
+        /*max-width: 100%;*/
+        height: 200px;
+        width: 230px;
+        border-radius: 10px;
+    }
+
+.er_cont_carousel_gold {
+}
+
+/*Seccion about*/
+.er_cont_bannerAbout {
+    height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/fondo1.jpg");
+    font-family: Bahnschrift;
+}
+/*Seccion registros*/
+.er_cont_Registro_users {
+    font-family: Bahnschrift;
+    height: 600px;
+    background-image: url('../images/casa1.jpg');
+}
+
+.er_cont_Registro_users_sombra {
+    position: absolute;
+    left: 50%;
+    top: 20em;
+    border-radius: 20px;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    width: 96%;
+    /*height: 100%;*/
+    text-align: center;
+    background-color: rgba(205,208,203,0.9);
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Seccion de editar inmuebles*/
+.ed_editInmView {
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: darkgrey;*/
+    background-image: url("../images/carousel4.jpg");
+    position: relative;
+    margin-top: 50px;
+    /*color: black;*/
+}
+
+.body {
+}
+
+.ed_editInmView xd {
+    margin-top: 200px;
+}
+
+.ed_editInmView gallery {
+    border: 1px solid #ccc;
+}
+
+    .ed_editInmView gallery:hover {
+        border: 1px solid #777;
+    }
+
+.ed_editInmView img {
+    width: 10%;
+    height: auto;
+}
+
+.ed_editInmView desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.er_scroll_img {
+    max-height: 200px;
+    max-width: 220px;
+    overflow: scroll;
+}
+
+    .er_scroll_img input {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .er_scroll_img BotonUpload {
+        margin-top: 1em;
+        position: absolute;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        background-color: grey;
+    }
+
+    .er_scroll_img + BotonUpload + div {
+        background-color: grey;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+
+.er_scroll_botAdd {
+    font-size: 14px;
+    font-weight: 100;
+    color: honeydew;
+    background-color: limegreen;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 14px 15px !important;
+    /*width: 10px;*/
+    text-align: center;
+}
+
+    .er_scroll_botAdd:hover {
+        background-color: azure;
+        color: #0094ff;
+    }
+
+.er_scroll_botDel {
+    font-size: 14px;
+    font-weight: 100;
+    color: honeydew;
+    background-color: deepskyblue;
+    background-color: red;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 14px 15px !important;
+    /*width: 10px;*/
+    text-align: center;
+}
+
+    .er_scroll_botDel:hover {
+        background-color: azure;
+        color: deepskyblue;
+    }
+
+.er_scroll_img img {
+    width: 75px;
+    height: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.ed_editInmView responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .ed_editInmView responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .ed_editInmView responsive {
+        width: 100%;
+    }
+}
+
+.ed_editInmView clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 770px) {
+    .ed_editInmView {
+        height: 2200px;
+        max-height: 2200px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+
+    .er_cont_User {
+        height: 680px;
+    }
+
+    .er_sombra_User {
+        top: 22em;
+    }
+
+    .er_cont_banner {
+        height: 900px;
+        font-size: 0.95em
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .er_contPlan {
+        height: 1500px;
+    }
+
+    .er_sombra_plans_new {
+        top: 48em;
+    }
+
+    .er_cont_User {
+        height: 1400px;
+    }
+
+    .er_sombra_User {
+        top: 45em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .er_Cont_Inmuebles {
+        height: 1500px;
+    }
+    /*.viewInm_carouselimg {
+       top:80em;
+    }*/
+    .er_sombra_Inmuebles {
+        top: 48em;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .er_Cont_Inmuebles {
+        /*height: 300vh;*/
+    }
+
+    .er_sombra_Inmuebles {
+        top: 48em;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .er_Cont_Inmuebles {
+    }
+
+    .er_sombra_Inmuebles {
+        top: 48em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .er_Cont_Inmuebles {
+        height: 2500px;
+    }
+
+    .er_sombra_Inmuebles {
+        top: 80em;
+    }
+
+    .er_cont_Registro_users {
+        height: 1000px;
+    }
+
+    .er_cont_Registro_users_sombra {
+        top: 30em;
+    }
+
+    .er_cont_User {
+        height: 1500px;
+    }
+
+    .er_sombra_User {
+        top: 45em;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .er_Cont_Inmuebles {
+        height: 2650px;
+    }
+
+    .er_sombra_Inmuebles {
+        top: 85em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .er_Cont_Inmuebles {
+        height: 2650px;
+    }
+
+    .er_sombra_Inmuebles {
+        top: 85em;
+    }
+
+    .er_card_imgPerfil img {
+        width: 280px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .er_Cont_Inmuebles {
+        height: 2800px;
+    }
+
+    .er_sombra_Inmuebles {
+        top: 88em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /*.er_sombra_Inmuebles {
+        top: 23em;
+    }*/
+
+    /*.viewInm_carouselimg {
+        top: 40em;
+    }*/
+}
+
+@media only screen and (max-width: 450px) {
+    /*.er_sombra_Inmuebles {
+        top: 25em;
+    }*/
+
+    .er_cont_bannerAbout {
+        height: 700px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../images/fondo1.jpg");
+        font-family: Bahnschrift;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    /*.er_sombra_Inmuebles {
+        top: 65vh;
+    }*/
+
+
+}
+
+@media only screen and (max-height: 350px) {
+    .er_Cont_Inmuebles {
+        height: 2200px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /*.er_sombra_Inmuebles {
+        top: 85vh;
+    }*/
+}
+
+.footer-widgets {
+    height: 0px !important;
+}
+
+
+.viewInm_carouselimg {
+    top: 43.5em;
+}

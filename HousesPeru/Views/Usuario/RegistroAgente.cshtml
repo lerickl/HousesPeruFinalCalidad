@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "RegistroAgente";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<hi id="ViewRegistroAgente"></hi>
+
+<div class="er_cont_Registro_users">
+    <div class="er_cont_Registro_users_sombra">
+        <div class="container">
+            <section class="section">
+
+                <div class=" col-md-12  ">
+                    <div>
+                        <h3 class="  white-text font-weight-bold" id="myModalLabel">
+                            <strong>Registrar Agente</strong> <a class="green-text font-weight-bold"><strong></strong></a>
+                        </h3>
+                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+
+                    </div>
+
+                </div>
+                <form method="post" action="/Usuario/RegistroAgente" class="text-center">
+                    <div class="row">
+
+                        <div class="col-md-12 col-xl-12 ">
+                            <div class="row ">
+                                <div class=" col-md-4">
+                                    <div class="md-form" style="color:red;">
+                                        @Html.ValidationMessage("Nombre")
+                                        <input id="Nombre" name="Nombre" type="text" ¨placeholder="" class="form-control validate white-text ">
+                                        <label data-error="wrong" data-success="right" for="Nombre">Nombre</label>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="md-form " style="color:red;">
+                                        @Html.ValidationMessage("ApellidoP")
+                                        <input id="ApellidoP" name="ApellidoP" type="text" ¨placeholder="" class="form-control validate white-text ">
+                                        <label data-error="wrong" data-success="right" for="ApellidoP">Apellido Paterno</label>
+
+                                    </div>
+
+                                </div>
+                                <div class=" col-md-4">
+                                    <div class="md-form" style="color:red;">
+                                        @Html.ValidationMessage("ApellidoM")
+                                        <input id="ApellidoM" name="ApellidoM" type="text" ¨placeholder="" class="form-control validate white-text ">
+                                        <label data-error="wrong" data-success="right" for="ApellidoM">Apellido Materno</label>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="md-form " style="color:red;">
+
+                                        @Html.ValidationMessage("Email")
+
+                                        <input type="email" id="Email" class="form-control validate white-text col-md-12" ¨placeholder="" name="Email">
+                                        <label data-error="wrong" data-success="right" for="Email">Correo Electronico</label>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="md-form " style="color:red;">
+                                        @Html.ValidationMessage("Password")
+
+                                        <input type="password" id="Password" class="form-control validate white-text col-md-12" ¨placeholder="" name="Password">
+                                        <label data-error="wrong" data-success="right" for="Password">Contraseña</label>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="md-form">
+                                    <div class="text-center">
+                                        <button type="submit" class=" btn purple-gradient btn-rounded waves-effect waves-light">Registrar</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </form>
+
+
+            </section>
+        </div>
+
+
+    </div>
+
+ 
+</div>
+ 
